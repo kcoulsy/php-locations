@@ -1,11 +1,11 @@
 <?php
 
+include_once 'config.php';
 
 // this is a fake field hidden with css. If it has a value, a bot filled it in.
 // Or no recaptcha value
 if (isset($_POST['title']) || empty($_POST['recaptcha_value'])) {
-    // returning to original page to prevent suspicion
-    returnToPage(true);
+    returnResponse(false);
 }
 
 $recaptcha_response = $_POST['recaptcha_value'];
@@ -17,16 +17,16 @@ $recaptcha = new \ReCaptcha\ReCaptcha($recaptcha_secret);
 $resp = $recaptcha->setExpectedHostname($host_name)
                   ->verify($recaptcha_response, $remote_ip);
 
-if ($resp->isSuccess() && validatePostParams()) {
+if (validatePostParams()) {
     // Verified!
-    if (sendEmail()) {
-        returnToPage();
+    if (sendEmail($base_url, $contact_form_from, $contact_form_to)) {
+        returnResponse(true);
     } else {
-        returnToPage(true);
+        returnResponse(false, 'Unable to send email');
     }
 } else {
     $errors = $resp->getErrorCodes();
-    returnToPage(true);
+    returnResponse(false, 'Recaptcha Failed');
 }
 
 
@@ -47,7 +47,8 @@ function validatePostParams() {
 }
 
 
-function sendEmail() {
+
+function sendEmail($base_url, $contact_form_from, $contact_form_to) {
     $to = "kristiancoulson@gmail.com";
     $subject = "Contact Form Submission";
 
@@ -77,15 +78,21 @@ function sendEmail() {
     return mail($contact_form_to, $subject, $message, $headers);
 }
 
-function returnToPage($withError = false) {
-    // redirect back to the original page
-    $url = '/';
-    if (isset($_POST['site_location'])) {
-        $url = $_POST['site_location'] . '/';
+function returnResponse($success = true, $errors = false) {
+    $response = [
+        'params' => [
+            'name' => $_POST['name'],
+            'email' => $_POST['email'],
+            'phone' => $_POST['phone'],
+            'message' => $_POST['message']
+        ],
+        'success' => $success
+    ];
+
+    if ($errors != false) {
+        $response['errors'] = $errors;
     }
 
-    $url .= $withError ? 'error' : 'success';
-
-    header('Location: ' . $base_url . $url);
-    exit;
+    echo json_encode($response);
+    die;
 }
