@@ -57,7 +57,6 @@ body {
           display: flex;
           flex-direction: column; }
           .coulsy-header .coulsy-header__inner .coulsy-header__inner--links ul li a {
-            font-weight: bold;
             color: white; }
             .coulsy-header .coulsy-header__inner .coulsy-header__inner--links ul li a .fa-chevron-down {
               font-size: 12px; }
