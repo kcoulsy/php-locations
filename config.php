@@ -40,7 +40,7 @@ $recaptcha_api_key = '6LegdPAUAAAAANdfAjwAgL3sUq_kLCeAyUanvVib';
 $host_name = '127.0.0.1';
 
 // Form details
-$contact_form_to = "robert@coulsy.co.uk";
+$contact_form_to = "kristiancoulson@gmail.com";
 $contact_form_from = "robert@coulsy.co.uk";
 
 // You can override these on the templates by setting $title or $meta_desc before including head.php
