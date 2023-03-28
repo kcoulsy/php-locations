@@ -1,9 +1,9 @@
 <?php
 
-$base_url = 'http://127.0.0.1/coulsy/';
+$base_url = 'http://localhost/php-locations/';
 
-$homepage_template = 'templates/home.php';
-$pagenotfound_template = 'templates/404.php';
+$homepage_template = 'controllers/home.php';
+$pagenotfound_template = 'controllers/404.php';
 
 $locations = [
     'halifax',
@@ -22,14 +22,16 @@ $locations = [
     'otley'
 ];
 
+
+$current_service_url = 'fire-door-services';
 // (location) is replaced with the locations in $locations.
 $routes = [
-    '(location)-windows' => 'templates/windows.php',
-    'showcase' => 'templates/showcase.php',
-    'about' => 'templates/about.php',
-    'contact' => 'templates/contact.php',
-    'areas-covered' => 'templates/areas-covered.php',
-    'project' => 'templates/project.php'
+    '(location)-'.$current_service_url.'' => 'controllers/location-view.php',
+    'showcase' => 'controllers/showcase.php',
+    'about' => 'controllers/about.php',
+    'contact' => 'controllers/contact.php',
+    'areas-covered' => 'controllers/areas-covered.php',
+    'projects' => 'controllers/projects.php'
 ];
 
 // $location_name is also exposed from the (location) above
@@ -40,17 +42,19 @@ $recaptcha_api_key = '6LegdPAUAAAAANdfAjwAgL3sUq_kLCeAyUanvVib';
 $host_name = '127.0.0.1';
 
 // Form details
-$contact_form_to = "kristiancoulson@gmail.com";
+$contact_form_to = "info@coulsy.co.uk";
 $contact_form_from = "robert@coulsy.co.uk";
 
-// You can override these on the templates by setting $title or $meta_desc before including head.php
+// You can override these on the controllers by setting $title or $meta_desc before including head.php
 $default_title = 'Coulsy';
 $default_meta_desc = 'Coulsy Meta Description';
 
 $meta_author = 'Coulsy';
 $meta_image = $base_url . '';
 
-$current_product = 'Windows';
+$current_service = 'Fire Door Services ';
+//$current_service_url = 'windows';
+
 $current_pro = $meta_author .' '. $current_product;
 
 $address_line_1 = 'Great Scausby Barn';
@@ -65,7 +69,7 @@ $phone_mobile_2 = '07544 030486';
 $email_main = 'robert@coulsy.co.uk';
 
 // COPYRIGHT ---------------------------------------------------------------------
-$copyright				=	'Copyright &copy; 2020 - Coulsy '. $current_product .'  &trade; - All rights reserved';
+$copyright				=	'Copyright &copy; 2023 - Coulsy '. $current_product .'  &trade; - All rights reserved';
 $developer				=	'Designed &amp; Maintained By <a href="http://coulsy.co.uk" target="_blank">Coulsy&trade;</a> - W3C';
 
 $social_link_insta = '#';

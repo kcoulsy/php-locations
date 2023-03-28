@@ -1,4 +1,23 @@
-<div class="coulsy-footer">
+<footer id="footer">
+    <div class="row">
+        <div class="col-lg-12">
+            <ul class="list-unstyled">
+                <li class="float-end"><a href="#top">Back to top</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+            <p><?= $copyright ?></p>
+            <p><?= $developer ?></p>
+
+        </div>
+    </div>
+</footer>
+
+
+
+<!-- <div class="coulsy-footer">
     <div class="footer-container">
         <div class="col">
             <p class="col-head">Location</p>
@@ -42,4 +61,4 @@
         <p><?php echo $copyright; ?></p>
         <p><?php echo $developer; ?></p>
     </div>
-</div>
+</div> -->

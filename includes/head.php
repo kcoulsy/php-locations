@@ -12,25 +12,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="<?php echo $meta_author; ?>">
-    <meta name="description" content="<?php echo $meta_desc; ?>">
-    <meta property="og:image" content="<?php echo $meta_image; ?>">
-    <meta property="og:description" content="<?php echo $meta_desc; ?>">
-    <meta property="og:title" content="<?php echo $title; ?>">
-    <meta name="twitter:title" content="<?php echo $title; ?>">
-    <title><?php echo $title; ?></title>
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $base_url; ?>libs/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $base_url; ?>libs/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $base_url; ?>libs/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="<?php echo $base_url; ?>libs/images/favicon/site.webmanifest">
-    <link rel="stylesheet" href="<?php echo $base_url; ?>libs/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo $base_url; ?>libs/css/main.css">
-    <link rel="stylesheet" href="<?php echo $base_url; ?>libs/fontawesome-free/css/all.min.css">
+    <meta name="author" content="<?= $meta_author ?>">
+    <meta name="description" content="<?= $meta_desc ?>">
+    <meta property="og:image" content="<?= $meta_image ?>">
+    <meta property="og:description" content="<?= $meta_desc ?>">
+    <meta property="og:title" content="<?= $title ?>">
+    <meta name="twitter:title" content="<?= $title ?>">
+    <title><?= $title ?></title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+   <!-- <link rel="stylesheet" href="<?php //$base_url; ?>assets/fontawesome-free/css/all.min.css"> -->
 
 
     <!-- Web Fonts  -->
-    <link href="https://fonts.googleapis.com/css?family=family=Lora:400,400i,700,700i|Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet" type="text/css">
 
     <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/vendor/prism-okaidia.css">
+    <link rel="stylesheet" href="assets/vendor/custom.min.css">
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <!-- <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23019901-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-23019901-1');
+    </script>
+  <script id="_carbonads_projs" type="text/javascript" src="https://srv.carbonads.net/ads/CKYIE23N.json?segment=placement:bootswatchcom&amp;callback=_carbonads_go"></script></head>     -->
 </head>
 <body>
+
+
