@@ -11,7 +11,7 @@ if (isset($_POST['title']) || empty($_POST['recaptcha_value'])) {
 $recaptcha_response = $_POST['recaptcha_value'];
 $remote_ip = $_SERVER['REMOTE_ADDR'];
 
-require_once 'libs/recaptcha-master/src/autoload.php';
+require_once 'assets/recaptcha-master/src/autoload.php';
 $recaptcha = new \ReCaptcha\ReCaptcha($recaptcha_secret);
 
 $resp = $recaptcha->setExpectedHostname($host_name)
@@ -49,7 +49,7 @@ function validatePostParams() {
 
 
 function sendEmail($base_url, $contact_form_from, $contact_form_to) {
-    $to = "kristiancoulson@gmail.com";
+    $to = "robert@coulsy.co.uk";
     $subject = "Contact Form Submission";
 
     $message = "

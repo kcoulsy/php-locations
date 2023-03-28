@@ -37,8 +37,8 @@ $routes = [
 // $location_name is also exposed from the (location) above
 
 // Google Recaptcha details
-$recaptcha_secret = '6LegdPAUAAAAAC7uLKfu18-ugKKwpvq3AYaRkCAa';
-$recaptcha_api_key = '6LegdPAUAAAAANdfAjwAgL3sUq_kLCeAyUanvVib';
+$recaptcha_secret = '6Ldb4TwlAAAAAEMA78R_ZML8js83UW4Yoei7tw7N';
+$recaptcha_api_key = '6Ldb4TwlAAAAAGfyM26SE0__awmw7Ts3KCGNmTgP';
 $host_name = '127.0.0.1';
 
 // Form details
