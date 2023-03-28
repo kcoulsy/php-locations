@@ -10,7 +10,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="areas-covered" id="themes">Areas Covered</a>
               <div class="dropdown-menu" aria-labelledby="themes">
-                <a class="dropdown-item" href="leeds-windows">Leeds</a>
+                <a class="dropdown-item" href="leeds-<?= $current_service_url ?>">Leeds</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="halifax-<?= $current_service_url ?>">Halifax</a>
                 <a class="dropdown-item" href="leeds-<?= $current_service_url ?>">Leeds</a>

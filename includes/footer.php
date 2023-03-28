@@ -5,10 +5,12 @@
 
     <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/prismjs/prism.js" data-manual=""></script>
-    <script src="assets/js/custom.js"></script>
+    
 
     <!-- Theme Custom -->
-    <script src="<?php echo $base_url; ?>assets/js/main.js"></script>
+   
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/main.js"></script>
 
     <?php //if (!empty($has_contact_form) && $has_contact_form == true) { ?>
 
