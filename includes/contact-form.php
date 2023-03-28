@@ -23,8 +23,10 @@
             </div>
             <input type="text" class="d-none" name="site_location" id="site_location" value="<?= $url_string ?>" />
             <input type="hidden" name="recaptcha_value" id="recaptcha_value"  value="" />
+            
             <button type="submit" id="submit-form" class="btn btn-primary">Submit Form</button>
         </form>
+
         <div id="contact-error-alert" class="alert alert-danger mt-2 mb-0" role="alert">
             Something went wrong when submitting the form!
         </div>
