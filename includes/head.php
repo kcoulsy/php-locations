@@ -29,10 +29,13 @@
     <!-- Web Fonts  -->
 
     <!-- Vendor CSS -->
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/vendor/bootstrap-icons/font/bootstrap-icons.css>
-    <link rel="stylesheet" href="assets/vendor/prismjs/themes/prism-okaidia.css">
-    <link rel="stylesheet" href="assets/css/custom.min.css">
+    
+    <link rel="stylesheet" href="https://bootswatch.com/5/flatly/bootstrap.css">
+
+
+    <link rel="stylesheet" href="https://bootswatch.com/_vendor/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://bootswatch.com/_vendor/prismjs/themes/prism-okaidia.css">
+    <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
 
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <!-- <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23019901-1"></script>
