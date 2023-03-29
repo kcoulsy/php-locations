@@ -30,9 +30,6 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about">About</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="showcase">Our Work</a>
         </li>
         <li class="nav-item">
@@ -42,15 +39,15 @@
           <a class="nav-link" href="contact">Contact</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="download">Anything</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="about" id="download">About</a>
           <div class="dropdown-menu" aria-labelledby="download">
-            <a class="dropdown-item" rel="noopener" target="_blank" href="https://jsfiddle.net/bootswatch/uzajL5kb/">Open in JSFiddle</a>
+            <!-- <a class="dropdown-item" rel="noopener" target="_blank" href="https://jsfiddle.net/bootswatch/uzajL5kb/">Open in JSFiddle</a> -->
+            <a class="dropdown-item" href="about">About</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="halifax-windows">Halifax</a>
-            <a class="dropdown-item" href="../5/flatly/bootstrap.css" download="">bootstrap.css</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="../5/flatly/_variables.scss" download="">_variables.scss</a>
-            <a class="dropdown-item" href="../5/flatly/_bootswatch.scss" download="">_bootswatch.scss</a>
+
+            <a class="dropdown-item" href="qualifications">Qualifications</a>
+            <a class="dropdown-item" href="compliance">Compliance</a>
+            <a class="dropdown-item" href="sustainability">Sustainability</a>
           </div>
         </li>
 
