@@ -26,12 +26,12 @@ require 'includes/header.php';
                     <h5 class="card-title">Skills</h5>
                     <h6 class="card-subtitle text-muted">Knowing we are the right team for you</h6>
 
-                <img class="" src="assets/images/bench-plane-frog_adobe_express.svg" class="img-fluid" alt="Responsive image">
+                    <img class="" src="assets/images/bench-plane-frog_adobe_express.svg" class="img-fluid" alt="Responsive image">
 
                 </div>
                 <ul class="list-group list-group-flush">
-                <li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Carpenters & Joiners</li>
-                <li class="list-group-item"><i class="bi bi-clipboard2-check"></i> City & Guilds ”Distinction Grades”</li>
+                    <li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Carpenters & Joiners</li>
+                    <li class="list-group-item"><i class="bi bi-clipboard2-check"></i> City & Guilds ”Distinction Grades”</li>
                     <li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Advanced City & Guilds ”Distinction Grades”</li>
                     <li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Reach & Boom hydraulic lifts</li>
                     <li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Asbestos Awareness</li>
@@ -42,7 +42,7 @@ require 'includes/header.php';
                 </div>
             </div>
         </div>
-        
+
         <div class="bs-component">
             <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
                 <div class="card-header">Qualified</div>
@@ -69,7 +69,7 @@ require 'includes/header.php';
                     <h5 class="card-title">Legal</h5>
                     <h6 class="card-subtitle text-muted">The Fire Safety (England) Regulations 2022</h6>
                     <img src="assets/images/compliance.jpeg" class="img-fluid" alt="Responsive image">
-                    </div>
+                </div>
 
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"><i class="bi bi-building-fill-check"></i> What the law requires?</li>
@@ -105,7 +105,7 @@ require 'includes/header.php';
                         As a client, you can rest assured that we have met all the necessary health and safety standards to work within the law for the public and private sectors.
                         We are happy to provide our pre tender risk assessments, Method statements and any other specific documentation that maybe required.
                         Our site operatives receive full Health and safety competency training.
-                        </p>
+                    </p>
                 </div>
             </div>
         </div>

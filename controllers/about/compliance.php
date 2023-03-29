@@ -23,90 +23,49 @@ require 'includes/header.php' ?>
 	</section>
 
 
-	<div class="row mb-4">
+	<div class="row justify-content-around mb-5 mt-5">
 
-		<div class="col-md-4 col-lg-4 mb-5 mb-lg-0 rounded-3 border shadow-sm">
-			<img class="col-md-12 col-lg-12" src="assets/images/compliance.jpeg" class="img-fluid" alt="Responsive image">
-		</div>
-
-		<div class="col-lg-8">
+		<div class="col-lg-5">
 
 			<div class="project-detail-construction">
 
-				<h3><small class="text-muted">As a company we are committed to health and safety and take our duty of care seriously</small></h3>
-				<p class="lead">Lorum</p>
+				<h3>Our<small class="text-muted"> compliance as a company is fully committed to health and safety and take our duty of care seriously</small></h3>
 
-				<div class="row">
-					<div class="col-lg-5">
+				<p class="lead mt-4">Insurance</p>
+				<p>
+				Public liability <a href="#">&nbsp;<i class="bi bi-download"></i></a>
+				<br>
+				Employers liability <a href="#">&nbsp;<i class="bi bi-download"></i></a>
+				</p>
 
-						<ul class="list-project-details">
-							<li>
-								<label>Insurance:</label>
-								<p>
-									<a href="#">Public liability</a><br>
-									<a href="#">Employers liability</a>
-								</p>
-							</li>
-							<li>
-								<label>Regulations:</label>
-								<p>Fire safety regulations England 2022<br>
-									Construction (Design and Management) Regulations 2015<br>
-									Health & Safety at Work Act 1974<br>
-									Management of Health & Safety at Work Regulations 1999<br>
-									Control of Substances Hazardous to Health Regulations (COSHH) 2002
-								</p>
-							</li>
-							<li>
-								<label>Policies:</label>
-								<p>Risk assesments<br>Method statements<br>Equality</p>
-							</li>
-						</ul>
+				<p class="lead mt-4">Regulations</p>
+				<p>Fire safety regulations England 2022<br>
+					Construction (Design and Management) Regulations 2015<br>
+					Health & Safety at Work Act 1974<br>
+					Management of Health & Safety at Work Regulations 1999<br>
+					Control of Substances Hazardous to Health Regulations (COSHH) 2002
+				</p>
 
-					</div>
-					<div class="col-lg-7">
-						<div class="progress-bars progress-bars-project-detail">
-							<div class="progress-label">
-								<span>General Progress</span>
-							</div>
-							<div class="progress progress-sm">
-								<div class="progress-bar progress-bar-primary" data-appear-progress-animation="81%" style="width: 81%;">
-									<span class="progress-bar-tooltip" style="opacity: 1;">81%</span>
-								</div>
-							</div>
-							<div class="progress-label">
-								<span>Phase 1</span>
-							</div>
-							<div class="progress progress-sm">
-								<div class="progress-bar progress-bar-primary" data-appear-progress-animation="85%" data-appear-animation-delay="300" style="width: 85%;">
-									<span class="progress-bar-tooltip" style="opacity: 1;">85%</span>
-								</div>
-							</div>
-							<div class="progress-label">
-								<span>Phase 2</span>
-							</div>
-							<div class="progress progress-sm">
-								<div class="progress-bar progress-bar-primary" data-appear-progress-animation="75%" data-appear-animation-delay="600" style="width: 75%;">
-									<span class="progress-bar-tooltip" style="opacity: 1;">75%</span>
-								</div>
-							</div>
-							<div class="progress-label">
-								<span>Phase 4</span>
-							</div>
-							<div class="progress progress-sm">
-								<div class="progress-bar progress-bar-primary" data-appear-progress-animation="85%" data-appear-animation-delay="900" style="width: 85%;">
-									<span class="progress-bar-tooltip" style="opacity: 1;">85%</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<p class="lead mt-4">Policies</p>
+				<p>Risk assesments<br>Method statements<br>Equality</p>
+
 			</div>
-
 		</div>
+
+		<div class="col-lg-5">
+			<img src="assets/images/compliance.jpeg" class="img-fluid mx-auto d-block mb-4" alt="Responsive image">
+		</div>
+
+
 	</div>
 
 
+
 </div>
+
+
+
+
 
 <?php
 
