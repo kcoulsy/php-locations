@@ -29,7 +29,7 @@ require 'includes/header.php' ?>
 
 			<div class="project-detail-construction">
 
-				<h3>Our<small class="text-muted"> compliance as a company is fully committed to health and safety and take our duty of care seriously</small></h3>
+				<h3>O<small class="text-muted">ur compliance as a company is fully committed to health and safety and take our duty of care seriously</small></h3>
 
 				<p class="lead mt-4">Insurance</p>
 				<p>

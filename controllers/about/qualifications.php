@@ -29,7 +29,7 @@ require 'includes/header.php' ?>
 
 			<div class="project-detail-construction">
 
-				<h3><small class="text-muted">Rest assured that we are fully qualified</small></h3>
+				<h3>R<small class="text-muted">est assured that we are fully qualified</small></h3>
 				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
 				<div class="row">
