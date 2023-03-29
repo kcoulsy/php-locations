@@ -44,6 +44,7 @@ require 'includes/header.php' ?>
 				<p class="lead mt-4">Social</p>
 				<p>Initiatives promoting the wellbeing, health and safety of communities, customers and employees.</p>
 
+				<p class="lead mt-4"><a href="#" target="_blank" >Our Environmental policy download</a></p>
 			</div>
 		</div>
 

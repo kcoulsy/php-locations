@@ -26,7 +26,7 @@ require 'includes/header.php' ?>
 	<div class="row mb-4">
 
 		<div class="col-md-4 col-lg-4 mb-5 mb-lg-0 rounded-3 border shadow-sm">
-		<img class="col-md-12 col-lg-12" src="assets/images/compliance.jpeg" class="img-fluid" alt="Responsive image">
+			<img class="col-md-12 col-lg-12" src="assets/images/compliance.jpeg" class="img-fluid" alt="Responsive image">
 		</div>
 
 		<div class="col-lg-8">
@@ -42,9 +42,10 @@ require 'includes/header.php' ?>
 						<ul class="list-project-details">
 							<li>
 								<label>Insurance:</label>
-								<p>Public liability<br>
-									Employers liability<br>
-									Professional Indemity</p>
+								<p>
+									<a href="#">Public liability</a><br>
+									<a href="#">Employers liability</a>
+								</p>
 							</li>
 							<li>
 								<label>Regulations:</label>
