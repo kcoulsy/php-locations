@@ -11,7 +11,9 @@
     <!-- Theme Custom -->
 
     <!-- FORM NOT SUBMITTING DELETED THIS DUE TO TESTING -->
-    <script src="assets/js/main.js"></script>
+    <script src="<?php echo $base_url; ?>assets/js/main.js"></script>
+    
+    <script src="assets/jquery/jquery.min.js"></script>
 
     <!-- <script src="assets/js/views/view.contact.js"></script> -->
 

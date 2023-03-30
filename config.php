@@ -22,7 +22,7 @@ $locations = [
     'otley'
 ];
 
-
+$current_service = 'Fire Door Services ';
 $current_service_url = 'fire-door-services';
 // (location) is replaced with the locations in $locations.
 $routes = [
@@ -55,8 +55,6 @@ $default_meta_desc = 'Coulsy Meta Description';
 $meta_author = 'Coulsy';
 $meta_image = $base_url . '';
 
-$current_service = 'Fire Door Services ';
-//$current_service_url = 'windows';
 
 $current_pro = $meta_author .' '. $current_product;
 

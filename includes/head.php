@@ -31,14 +31,14 @@
     <!-- Vendor CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     
-    <link rel="stylesheet" href="https://bootswatch.com/5/flatly/bootstrap.css">
+    <link rel="stylesheet" href="https://bootswatch.com/5/flatly/bootstrap.css" type="text/css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" type="text/css">
     <!-- <link rel="stylesheet" href="https://bootswatch.com/_vendor/bootstrap-icons/font/bootstrap-icons.css"> -->
-    <link rel="stylesheet" href="https://bootswatch.com/_vendor/prismjs/themes/prism-okaidia.css">
-    <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/_vendor/prismjs/themes/prism-okaidia.css" type="text/css">
+    <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css" type="text/css">
 
-    <link href="assets/css/carousel.css" rel="stylesheet">
+    <link href="assets/css/carousel.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>

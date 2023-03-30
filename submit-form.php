@@ -5,7 +5,7 @@ include_once 'config.php';
 // this is a fake field hidden with css. If it has a value, a bot filled it in.
 // Or no recaptcha value
 if (isset($_POST['title']) || empty($_POST['recaptcha_value'])) {
-    returnResponse(false);
+    returnResponse(true);
 }
 
 $recaptcha_response = $_POST['recaptcha_value'];

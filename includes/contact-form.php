@@ -1,6 +1,6 @@
 <?php $has_contact_form = true ?>
 <div class="m-3">
-    <h2 class="mb-0">Quick Enquiry</h2>
+    <h4 class="mb-0">Quick Enquiry</h4>
     <p class="lead mb-4 mt-1">Leave a few details to discover how we can help.</p>
     <div class="card p-3 mt-3">
         <form id="contact-form" method="post" action="submit-form.php">
