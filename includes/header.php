@@ -7,9 +7,9 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="areas-covered" id="themes">Areas Covered</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="areas-covered" id="themes">Areas</a>
           <div class="dropdown-menu" aria-labelledby="themes">
-            <a class="dropdown-item" href="leeds-<?= $current_service_url ?>">Leeds</a>
+            <a class="dropdown-item" href="areas-covered">Areas Covered</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="halifax-<?= $current_service_url ?>">Halifax</a>
             <a class="dropdown-item" href="leeds-<?= $current_service_url ?>">Leeds</a>
@@ -30,18 +30,14 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="showcase">Our Work</a>
+          <a class="nav-link" href="showcase">Showcase</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="projects">Projects</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact">Contact</a>
-        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="about" id="download">About</a>
           <div class="dropdown-menu" aria-labelledby="download">
-            <!-- <a class="dropdown-item" rel="noopener" target="_blank" href="https://jsfiddle.net/bootswatch/uzajL5kb/">Open in JSFiddle</a> -->
             <a class="dropdown-item" href="about">About</a>
             <div class="dropdown-divider"></div>
 
@@ -50,6 +46,10 @@
             <a class="dropdown-item" href="sustainability">Sustainability</a>
           </div>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact">Contact</a>
+        </li>
+
 
       </ul>
       <ul class="navbar-nav ms-md-auto">
@@ -69,5 +69,3 @@
     </div>
   </div>
 </div>
-
-<div class="container">

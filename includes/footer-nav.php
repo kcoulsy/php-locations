@@ -1,20 +1,21 @@
-<footer id="footer">
-    <div class="row">
-        <div class="col-lg-12">
-            <ul class="list-unstyled">
-                <li class="float-end"><a href="#top">Back to top</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Blog</a></li>
-            </ul>
-            <p><?= $copyright ?></p>
-            <p><?= $developer ?></p>
+<div class="container">
+    <footer id="footer">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="list-unstyled">
+                    <li class="float-end"><a href="#top">Back to top</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+                <p><?= $copyright ?></p>
+                <p><?= $developer ?></p>
 
+            </div>
         </div>
-    </div>
-</footer>
-
+    </footer>
+</div>
 
 
 <!-- <div class="coulsy-footer">

@@ -2,20 +2,28 @@
 $title = 'Areas Covered';
 $meta_desc = 'Areas Covered - this is a custom meta description';
 
-include_once 'includes/head.php';
+require 'includes/head.php';
 
-include_once 'includes/header.php';
+require 'includes/header.php';
 
 ?>
 
-    <h2>Areas Covered</h2>
+<div class="container">
+
+    <div class="row mt-5 mb-4">
+        <div class="col">
+            <h1><?= $title ?></h1>
+        </div>
+    </div>
+
     
     <p>Hello</p>
+
+
+</div> <!-- container -->
 
 <?php
 
 include_once 'includes/footer-nav.php';
 
 include_once 'includes/footer.php';
-
-?>

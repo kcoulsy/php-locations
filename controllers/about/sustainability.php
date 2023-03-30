@@ -4,24 +4,17 @@ $meta_desc = 'this is a custom meta description';
 
 require 'includes/head.php';
 
-require 'includes/header.php' ?>
+require 'includes/header.php';
 
+?>
 
-<div role="main" class="main">
+<div class="container">
 
-	<section class="page-header page-header-modern page-header-background bg-color-dark p-relative z-index-1 lazy-load-loaded" data-plugin-lazyload="" data-original="img/demos/digital-agency-2/bg/page-header-bg.jpg" style="background-image: url(&quot;img/demos/digital-agency-2/bg/page-header-bg.jpg&quot;); animation-duration: 1s;">
-		<span class="custom-circle custom-circle-1 bg-color-light custom-circle-blur appear-animation animated" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="400"></span>
-		<span class="custom-circle custom-circle-2 bg-color-primary appear-animation animated" data-appear-animation="zoomIn" data-appear-animation-delay="500"></span>
-		<span class="custom-circle custom-circle-3 bg-color-primary appear-animation animated" data-appear-animation="zoomIn" data-appear-animation-delay="600"></span>
-		<div class="container">
-			<div class="row mt-5">
-				<div class="col">
-					<h1 class="custom-text-10 font-weight-bolder"><?= $title ?></h1>
-				</div>
-			</div>
+	<div class="row mt-5 mb-4">
+		<div class="col">
+			<h1><?= $title ?></h1>
 		</div>
-	</section>
-
+	</div>
 
 	<div class="row justify-content-around mb-5 mt-5">
 
@@ -44,7 +37,7 @@ require 'includes/header.php' ?>
 				<p class="lead mt-4">Social</p>
 				<p>Initiatives promoting the wellbeing, health and safety of communities, customers and employees.</p>
 
-				<p class="lead mt-4"><a href="#" target="_blank" >Our Environmental policy download</a></p>
+				<p class="lead mt-4"><a href="#" target="_blank">Our Environmental policy download</a></p>
 			</div>
 		</div>
 
@@ -57,10 +50,11 @@ require 'includes/header.php' ?>
 
 
 
-</div>
+
+</div> <!-- container -->
 
 <?php
 
-require 'includes/footer-nav.php';
+include_once 'includes/footer-nav.php';
 
-require 'includes/footer.php';
+include_once 'includes/footer.php';

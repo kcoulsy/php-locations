@@ -3,17 +3,27 @@ $location_name = '404 Page Not Found';
 
 require 'includes/head.php';
 
-require 'includes/navbar.php';
+require 'includes/header.php';
 
 ?>
 
-    <h3>404</h3>
+<div class="container">
+
+    <div class="row mt-5 mb-4">
+        <div class="col">
+            <h1><?= $location_name ?></h1>
+        </div>
+    </div>
+
+
     <h4>Oops... This page doesn't exist!</h4>
+
+
+
+</div> <!-- container -->
 
 <?php
 
-require 'includes/footer-nav.php';
+include_once 'includes/footer-nav.php';
 
-require 'includes/footer.php';
-
-?>
+include_once 'includes/footer.php';
