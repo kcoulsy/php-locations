@@ -1,6 +1,8 @@
 <?php $has_contact_form = true ?>
 <div class="m-3">
-    <h4 class="mb-0">Quick Enquiry</h4>
+    <h4 class="mb-2">Quick Enquiry</h4>
+    <h3 class="fs-5 mb-1">Call : <?= $contact_name_1 ?> <a href="tel:<?= $phone_mobile_1 ?>" style="text-decoration: none"><?= $phone_mobile_1 ?></a></h3>
+
     <p class="lead mb-4 mt-1">Leave a few details to discover how we can help.</p>
     <div class="card p-3 mt-3">
         <form id="contact-form" method="post" action="submit-form.php">

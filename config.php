@@ -63,9 +63,10 @@ $address_line_2 = 'Bradshaw';
 $address_line_3 = 'Halifax';
 $address_line_4 = 'HX2 9UR';
 
-$phone_landline = '01422 000 000';
+$contact_name_1 = 'Robert';
 $phone_mobile_1 = '07544 030486';
-$phone_mobile_2 = '07544 030486';
+$contact_name_2 = '';
+$phone_mobile_2 = '';
 
 $email_main = 'robert@coulsy.co.uk';
 

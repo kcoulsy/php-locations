@@ -13,8 +13,8 @@ require 'includes/header.php';
 <div class="container">
 
     <div class="row mt-5 mb-4">
-        <div class="col mt-4 ">
-            <h1><?= $location . ' ' . $current_service ?></h1>
+    <div class="col mt-4 ">
+            <h1 class="fs-3">Welcome to <?= $location . ' ' . $current_service ?></h1>
         </div>
     </div>
 
@@ -104,9 +104,6 @@ require 'includes/header.php';
 
             <div class="row flex-column pb-lg-2">
 
-                <div class="ms-3">
-                    <h3 class="text-body-emphasis">Contact us:<br><?= $phone_landline ?></h3>
-                </div>
                 <?php require 'includes/contact-form.php'; ?>
 
             </div>
