@@ -7,43 +7,42 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="areas-covered" id="themes">Areas</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="areas-covered" id="themes">Fire Door Services</a>
           <div class="dropdown-menu" aria-labelledby="themes">
             <a class="dropdown-item" href="areas-covered">Areas Covered</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="halifax-<?= $current_service_url ?>">Halifax</a>
-            <a class="dropdown-item" href="leeds-<?= $current_service_url ?>">Leeds</a>
-            <a class="dropdown-item" href="bradford-<?= $current_service_url ?>">Bradford</a>
-            <a class="dropdown-item" href="manchester-<?= $current_service_url ?>">Manchester</a>
-            <a class="dropdown-item" href="halifax-<?= $current_service_url ?>">Halifax</a>
-            <a class="dropdown-item" href="leeds-<?= $current_service_url ?>">Leeds</a>
-            <a class="dropdown-item" href="bradford-<?= $current_service_url ?>">Bradford</a>
-            <a class="dropdown-item" href="manchester-<?= $current_service_url ?>">Manchester</a>
-            <a class="dropdown-item" href="halifax-<?= $current_service_url ?>">Halifax</a>
-            <a class="dropdown-item" href="leeds-<?= $current_service_url ?>">Leeds</a>
-            <a class="dropdown-item" href="bradford-<?= $current_service_url ?>">Bradford</a>
-            <a class="dropdown-item" href="manchester-<?= $current_service_url ?>">Manchester</a>
-            <a class="dropdown-item" href="halifax-<?= $current_service_url ?>">Halifax</a>
-            <a class="dropdown-item" href="leeds-<?= $current_service_url ?>">Leeds</a>
-            <a class="dropdown-item" href="bradford-<?= $current_service_url ?>">Bradford</a>
-            <a class="dropdown-item" href="manchester-<?= $current_service_url ?>">Manchester</a>
+
+            <?php foreach ($locations as $dropdown_location) {
+              echo '<a class="dropdown-item" href="' . $dropdown_location . '-' . $current_service_url . '">' . ucfirst($dropdown_location) . '</a>';
+            } ?>
+
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="showcase">Showcase</a>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="about" id="download">Services</a>
+          <div class="dropdown-menu" aria-labelledby="download">
+            <a class="dropdown-item" href="fire-door-inspection">Fire Door Inspection</a>
+            <a class="dropdown-item" href="fire-door-installation">Fire Door Installation</a>
+            <a class="dropdown-item" href="fire-door-maintenance">Fire Door Maintenance</a>
+            <a class="dropdown-item" href="property-maintenance">Property Maintenance</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="">Resources</a>
+          </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="projects">Projects</a>
-        </li>
+
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="about" id="download">About</a>
           <div class="dropdown-menu" aria-labelledby="download">
             <a class="dropdown-item" href="about">About</a>
             <div class="dropdown-divider"></div>
-
             <a class="dropdown-item" href="qualifications">Qualifications</a>
             <a class="dropdown-item" href="compliance">Compliance</a>
             <a class="dropdown-item" href="sustainability">Sustainability</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="showcase">Showcase</a>
+            <a class="dropdown-item" href="projects">Projects</a>
+
           </div>
         </li>
         <li class="nav-item">

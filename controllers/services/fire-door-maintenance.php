@@ -3,14 +3,20 @@ $location = ucfirst($location);
 $title = $location . ' ' . $current_service;
 
 
-$meta_desc = $location . ' ' . $current_service;
+$meta_desc = 'this is a custom meta description';
 
 require 'includes/head.php';
 
 require 'includes/header.php';
 
 ?>
-<div class="container mt-5">
+<div class="container">
+
+    <div class="row mt-5 mb-4">
+    <div class="col mt-4 ">
+            <h1 class="fs-3">Welcome to <?= $location ?> fire door maintenance</h1>
+        </div>
+    </div>
 
     <div class="row">
 
@@ -23,51 +29,35 @@ require 'includes/header.php';
                         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
                         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
                         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
-                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
                     </div>
                     <div class="carousel-inner rounded-3 shadow-lg">
                         <div class="carousel-item active">
-                            <img src="assets/images/fire_door_keep_shut.jpeg" width="100%" height="100%" alt="<?= $location . ' ' . $current_service ?>" class="opacity-50">
+                            <img src="assets/images/fire_door_keep_shut.jpeg" width="100%" height="100%" alt="<?= $location . ' ' . $current_service ?>">
                             <div class="container">
-                                <!-- <div class="carousel-caption text-start"> -->
-                                <div class="carousel-caption">
-                                    <h1 style="color:#2c3e50;">Fire Door Inspections</h1>
-                                    <h2 style="color:#2c3e50;">Safety First</h2>
-                                    <p style="color:#2c3e50;">Here to assist to bring your fire doors up to regulation</p>
-                                    <p><a class="btn btn-lg btn-primary" href="#">Hook</a></p>
+                                <div class="carousel-caption text-start">
+                                    <h1>Example headline.</h1>
+                                    <p>Some representative placeholder content for the first slide of the carousel.</p>
+                                    <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/door-closer-open.jpeg" width="100%" height="100%" alt="<?= $location . ' ' . $current_service ?>" class="opacity-50">
+                            <img src="assets/images/door-hanging-1.jpeg" width="100%" height="100%" alt="<?= $location . ' ' . $current_service ?>">
                             <div class="container">
                                 <div class="carousel-caption">
-                                    <h1 style="color:#2c3e50;">Fire Door Maintenance</h1>
-                                    <h2 style="color:#2c3e50;">Repair Service</h2>
-                                    <p style="color:#2c3e50;">Let's see if we can fix your fire doors problems</p>
-                                    <p><a class="btn btn-lg btn-primary" href="#">Hook</a></p>
+                                    <h1>Another example headline.</h1>
+                                    <p>Some representative placeholder content for the second slide of the carousel.</p>
+                                    <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/door-hanging-1.jpeg" width="100%" height="100%" alt="<?= $location . ' ' . $current_service ?>" class="opacity-50">
+                            <img src="assets/images/door-closer-open.jpeg" width="100%" height="100%" alt="<?= $location . ' ' . $current_service ?>">
                             <div class="container">
                                 <div class="carousel-caption text-end">
-                                    <h1 style="color:#2c3e50;">Fire Door Installation</h1>
-                                    <h2 style="color:#2c3e50;">Accredited Installers</h2>
-                                    <p style="color:#2c3e50;">Here to install your fire doors to current regulations</p>
-                                    <p><a class="btn btn-lg btn-primary" href="#">Hook</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/building-maintenance.jpeg" width="100%" height="100%" alt="<?= $location . ' ' . $current_service ?>" class="opacity-50">
-                            <div class="container">
-                                <div class="carousel-caption text-end">
-                                    <h1 style="color:#2c3e50;">Property Maintenance</h1>
-                                    <h2 style="color:#2c3e50;">Buildings service and repairs</h2>
-                                    <p style="color:#2c3e50;">As Qualified tradespeople we have the knowledge, expertise, experience and commercial tools to do a professional bespoke service</p>
-                                    <p><a class="btn btn-lg btn-primary" href="#">Hook</a></p>
+                                    <h1>One more for good measure.</h1>
+                                    <p>Some representative placeholder content for the third slide of this carousel.</p>
+                                    <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +77,6 @@ require 'includes/header.php';
             <div class="row">
 
                 <div class="container" id="">
-                    <h1 class="fs-3">Welcome to <?= $location . ' ' . $current_service ?></h1>
                     <h3 class="pb-2 border-bottom mt-4">Our <small class="text-muted"><i class="bi bi-clipboard2-check"></i> services</small></h3>
                     <div class="row g-4 py-3 row-cols-2 row-cols-lg-2">
                         <div class="feature col">
@@ -100,7 +89,6 @@ require 'includes/header.php';
                         <div class="feature col">
                             <ul>
                                 <li>Supply and installation and fitting</li>
-                                <li>Fire door inspections</li>
                                 <li>Fire door risk assesments</li>
                             </ul>
                         </div>

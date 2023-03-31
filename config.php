@@ -19,11 +19,69 @@ $locations = [
     'ilkley',
     'manchester',
     'skipton',
-    'otley'
-];
+    'otley',
+    'Bath',
+    'Birmingham',
+    'Bradford',
+    'Brighton-and-Hove',
+    'Bristol',
+    'Cambridge',
+    'Canterbury',
+    'Carlisle',
+    'Chelmsford',
+    'Chester',
+    'Chichester',
+    'Colchester',
+    'Coventry',
+    'Derby',
+    'Doncaster',
+    'Durham',
+    'Ely',
+    'Exeter',
+    'Gloucester',
+    'Hereford',
+    'Kingston-upon-Hull',
+    'Lancaster',
+    'Leeds',
+    'Leicester',
+    'Lichfield',
+    'Lincoln',
+    'Liverpool',
+    'London',
+    'Manchester',
+    'Milton-Keynes',
+    'Newcastle-upon-Tyne',
+    'Norwich',
+    'Nottingham',
+    'Peterborough',
+    'Plymouth',
+    'Portsmouth',
+    'Preston',
+    'Ripon',
+    'Salford',
+    'Salisbury',
+    'Sheffield',
+    'Southampton',
+    'Southend-on-Sea',
+    'St-Albans',
+    'Stoke-on-Trent',
+    'Sunderland',
+    'Truro',
+    'Wakefield',
+    'Wells',
+    'Westminster',
+    'Winchester',
+    'Wolverhampton',
+    'Worcester',
+    'York'
+    ];
+
+    
+
 
 $current_service = 'Fire Door Services ';
 $current_service_url = 'fire-door-services';
+
 // (location) is replaced with the locations in $locations.
 $routes = [
     '(location)-'.$current_service_url.'' => 'controllers/location-view.php',
@@ -34,7 +92,11 @@ $routes = [
     'sustainability' => 'controllers/about/sustainability.php',
     'contact' => 'controllers/contact.php',
     'areas-covered' => 'controllers/areas-covered.php',
-    'projects' => 'controllers/projects.php'
+    'projects' => 'controllers/projects.php',
+    'fire-door-inspection' => 'controllers/services/fire-door-inspection.php',
+    'fire-door-installation' => 'controllers/services/fire-door-installation.php',
+    'fire-door-maintenance' => 'controllers/services/fire-door-maintenance.php',
+    'property-maintenance' => 'controllers/services/property-maintenance.php'
 ];
 
 // $location_name is also exposed from the (location) above
