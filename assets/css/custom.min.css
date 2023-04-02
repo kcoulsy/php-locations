@@ -41,6 +41,7 @@ iframe {
 .dropdown-menu.show[aria-labelledby=themes] {
     display: flex;
     flex-wrap: wrap;
+    /* width: 420px; */
     width: 420px
 }
 

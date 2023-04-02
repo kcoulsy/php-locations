@@ -30,11 +30,11 @@
         <button type="submit" id="submit-form" class="btn btn-sm btn-primary mt-2">Submit Form</button>
     </form>
 
-    <div id="contact-error-alert" class="alert alert-danger mt-2 mb-0" role="alert">
+    <!-- <div id="contact-error-alert" class="alert alert-danger mt-2 mb-0" role="alert">
         Something went wrong when submitting the form!
     </div>
 
     <div id="contact-success-alert" class="alert alert-primary mt-2 mb-0" role="alert">
         Form Submitted Successfully!
-    </div>
+    </div> -->
 </div>
