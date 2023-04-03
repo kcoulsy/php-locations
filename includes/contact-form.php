@@ -6,7 +6,7 @@
     <hr>
     <p class="lead">Instant message<br><small class="text-muted">Leave a few details to discover how we can help.</small></p>
 
-    <form id="contact-form" method="post" action="submit-form.php">
+    <form id="contact-form" method="post" action="submit-form">
         <div class="form-group">
             <label for="form-name">Name</label>
             <input type="text" placeholder="Your Name" value="" data-msg-required="Please enter your name." maxlength="30" class="form-control" name="name" id="name" required>

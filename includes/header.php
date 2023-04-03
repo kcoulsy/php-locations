@@ -33,6 +33,7 @@
 
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="">Resources</a>
+            
           </div>
         </li>
 
@@ -41,12 +42,12 @@
           <div class="dropdown-menu" aria-labelledby="download">
             <a class="dropdown-item" href="about">About</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="qualifications">Qualifications</a>
-            <a class="dropdown-item" href="compliance">Compliance</a>
-            <a class="dropdown-item" href="sustainability">Sustainability</a>
+            <a class="dropdown-item" href="qualifications">Our Qualifications</a>
+            <a class="dropdown-item" href="compliance">Our Compliance</a>
+            <a class="dropdown-item" href="sustainability">Our Sustainability</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="showcase">Showcase</a>
-            <a class="dropdown-item" href="projects">Projects</a>
+            <a class="dropdown-item" href="showcase">Our Showcase</a>
+            <a class="dropdown-item" href="projects">Our Projects</a>
 
           </div>
         </li>

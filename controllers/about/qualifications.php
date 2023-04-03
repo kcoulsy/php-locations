@@ -1,5 +1,5 @@
 <?php
-$title = 'Qualifications';
+$title = 'Our Qualifications';
 $meta_desc = 'this is a custom meta description';
 
 require 'includes/head.php';
@@ -23,20 +23,29 @@ require 'includes/header.php';
 			<div class="project-detail-construction">
 
 				<h3>R<small class="text-muted">est assured that we are fully qualified</small></h3>
-				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p class="lead"></p>
 
 				<div class="row">
 					<div class="col-lg-12">
-
+					<h5 class="mt-1">City and Guilds</h5>
 						<ul class="list-project-details">
 							<li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Trained carpenters & joiners</li>
 							<li class="list-group-item"><i class="bi bi-clipboard2-check"></i> City & Guilds ”Distinction Grades”</li>
 							<li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Advanced City & Guilds ”Distinction Grades”</li>
+						</ul>
+						<hr>
+
+						<h5 class="mt-1">(CSCS) certified</h5>
+						<p>(CSCS) Construction Skills Certification Scheme is used to measure the different levels of qualifications between contractors.</p>
+						<p>We have passed the construction skill health and safety test to obtain gold card status.</p>
+
+						<hr>
+						<h5 class="mt-1">Additional</h5>
+						<ul>
 							<li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Level 3 Award in Fire Door Safety (6581)</li>
 							<li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Reach & Boom hydraulic lifts</li>
 							<li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Asbestos Awareness</li>
 						</ul>
-
 					</div>
 				</div>
 			</div>
