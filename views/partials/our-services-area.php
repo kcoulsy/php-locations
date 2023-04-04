@@ -1,10 +1,11 @@
 
 <div class="container" id="">
-    <h3 class="pb-2 border-bottom mt-4">Our sevices</h3>
+    <h3 class="pb-2 border-bottom mt-4">Our sevices<small class="text-muted"> within <?= $location ?></small></h3>
     <div class="row g-4 py-3 row-cols-1 row-cols-lg-4">
         <div class="feature col">
-        <h4 class="fs-5"><i class="bi bi-door-open" style="font-size: 2rem; color: #18bc9c;"></i> <a href="<?= $service_inspectors_url ?>" class="">Fire Door Inspectors</a></h4>
+            <h4 class="fs-5"><i class="bi bi-door-open" style="font-size: 2rem; color: #18bc9c;"></i> <a href="<?= $service_inspectors_url ?>" class="">Fire Door Inspectors</a></h4>
             <p>The correct inspection of your fire door and its frame are cruicial to its performance.</p>
+            <a href="<?= $service_inspectors_url ?>" class="">More...</a><br><hr>
             <a href="<?= $service_inspectors_url ?>" class="">More...</a><br><hr>
             <a href="areas-covered-fire-door-inspectors" class="small">Areas covered</a>
         </div>
@@ -17,14 +18,14 @@
         </div>
         <div class="feature col">
             <h4 class="fs-5"><i class="bi bi-door-closed" style="font-size: 2rem; color: #18bc9c;"></i> <a href="<?= $service_fd_maintenance_url ?>" class="">Fire Door Maintenance</a></h4>
-            <p>We provide our clients with a proactive approach to fire door maintenance and complience.</p>
+            <p>We provide our clients with a proactive approach to fire door maintenance and complience within <?= $location ?>.</p>
             <a href="<?= $service_fd_maintenance_url ?>" class="">More...</a><br><hr>
             <a href="areas-covered-fire-door-maintenance" class="small">Areas covered</a>
 
         </div>
         <div class="feature col">
             <h4 class="fs-5"><i class="bi bi-buildings" style="font-size: 2rem; color: #18bc9c;"></i> <a href="<?= $service_prop_maintenance_url ?>" class="">Property Maintenance</a></h4>
-            <p>Reactive and proactive property maintenance.</p>
+            <p>Reactive and proactive property maintenance within <?= $location ?>.</p>
             <p class="small">Please visit our Landlord Services page to see full details on what we can offer.</p>
             <a href="<?= $service_prop_maintenance_url ?>" class="">More...</a><br><hr>
             <a href="areas-covered-property-maintenance" class="small">Areas covered</a>
