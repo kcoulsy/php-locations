@@ -1,13 +1,10 @@
 <?php
-// $location = ucwords($location);
-$location = $website_name;
+$location = ucwords($location);
 
-$current_service = 'Fire Door Installers';
+$current_service = 'Fire Door Installers ';
 
-// $title = $location . ' ' . $current_service;
 $title = $location . ' ' . $current_service;
 
-// $meta_desc = $location . ' ' . $current_service;
 $meta_desc = $location . ' ' . $current_service;
 
 require 'includes/head.php';

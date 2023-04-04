@@ -5,6 +5,8 @@ $base_url = 'http://localhost/php-locations/';
 $homepage_template = 'controllers/home.php';
 $pagenotfound_template = 'controllers/404.php';
 
+$website_name = 'Magic';
+
 $locations = [
     'halifax',
     'bradshaw',
@@ -80,12 +82,23 @@ $locations = [
 $service_services_url = 'fire-door-services';
 $service_inspectors_url = 'fire-door-inspectors';
 $service_installers_url = 'fire-door-installers';
+$service_fd_maintenance_url = 'fire-door-maintenance';
+$service_prop_maintenance_url = 'property-maintenance';
 
 // (location) is replaced with the locations in $locations.
 $routes = [
-    '(location)-'.$service_services_url.'' => 'controllers/location-view.php',
-    '(location)-'.$service_inspectors_url.'' => 'controllers/services/fire-door-inspectors.php',
-    '(location)-'.$service_installers_url.'' => 'controllers/services/fire-door-installers.php',
+    '(location)-'.$service_services_url.'' => 'controllers/services/fire-door-services-area.php',
+    '(location)-'.$service_inspectors_url.'' => 'controllers/services/fire-door-inspectors-area.php',
+    '(location)-'.$service_installers_url.'' => 'controllers/services/fire-door-installers-area.php',
+    '(location)-'.$service_fd_maintenance_url.'' => 'controllers/services/fire-door-maintenance-area.php',
+    '(location)-'.$service_prop_maintenance_url.'' => 'controllers/services/property-maintenance-area.php',
+
+    'fire-door-inspectors' => 'controllers/services/fire-door-inspectors.php',
+    'fire-door-installers' => 'controllers/services/fire-door-installers.php',
+    'fire-door-maintenance' => 'controllers/services/fire-door-maintenance.php',
+    'fire-door-services' => 'controllers/services/fire-door-services.php',
+    'property-maintenance' => 'controllers/services/property-maintenance.php',
+
     'showcase' => 'controllers/showcase.php',
     'about' => 'controllers/about/about.php',
     'qualifications' => 'controllers/about/qualifications.php',
@@ -93,10 +106,12 @@ $routes = [
     'sustainability' => 'controllers/about/sustainability.php',
     'contact' => 'controllers/contact.php',
     'areas-covered' => 'controllers/areas-covered.php',
-    'projects' => 'controllers/projects.php',
-    'fire-door-installers' => 'controllers/services/fire-door-installers.php',
-    'fire-door-maintenance' => 'controllers/services/fire-door-maintenance.php',
-    'property-maintenance' => 'controllers/services/property-maintenance.php'
+    'areas-covered-property-maintenance' => 'controllers/services/property-maintenance-areas.php',
+    'areas-covered-fire-door-maintenance' => 'controllers/services/fire-door-maintenance-areas.php',
+    'areas-covered-fire-door-services' => 'controllers/services/fire-door-services-areas.php',
+    'areas-covered-fire-door-installers' => 'controllers/services/fire-door-installers-areas.php',
+    'areas-covered-fire-door-inspectors' => 'controllers/services/fire-door-inspectors-areas.php',
+    'projects' => 'controllers/projects.php'
 ];
 
 // $location_name is also exposed from the (location) above

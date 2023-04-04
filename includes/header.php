@@ -6,7 +6,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav">
-      <li class="nav-item dropdown">
+
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="areas-covered" id="themes">Fire Door Services</a>
           <div class="dropdown-menu" aria-labelledby="themes">
             <a class="dropdown-item" href="areas-covered">Areas Covered</a>
@@ -20,46 +21,16 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="areas-covered" id="themes">Fire Door Inspectors</a>
-          <div class="dropdown-menu" aria-labelledby="themes">
-            <a class="dropdown-item" href="areas-covered">Areas Covered</a>
-            <div class="dropdown-divider"></div>
-
-            <?php foreach ($locations as $dropdown_location) {
-              echo '<a class="dropdown-item" href="' . $dropdown_location . '-' . $service_inspectors_url . '">' . ucfirst($dropdown_location) . '</a>';
-            } ?>
-
-          </div>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="areas-covered" id="themes">Fire Door Installers</a>
-          <div class="dropdown-menu" aria-labelledby="themes">
-            <a class="dropdown-item" href="areas-covered">Areas Covered</a>
-            <div class="dropdown-divider"></div>
-
-            <?php foreach ($locations as $dropdown_location) {
-              echo '<a class="dropdown-item" href="' . $dropdown_location . '-' . $service_installers_url . '">' . ucfirst($dropdown_location) . '</a>';
-            } ?>
-
-          </div>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="about" id="download">Services</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="about" id="download">Our Services</a>
           <div class="dropdown-menu" aria-labelledby="download">
-          <a class="dropdown-item disabled" href="">Fire Door Services</a>
-
-            <a class="dropdown-item disabled" href="">Fire Door Inspectors</a>
+            <a class="dropdown-item" href="fire-door-services">Fire Door Services</a>
+            <a class="dropdown-item" href="fire-door-inspectors">Fire Door Inspectors</a>
             <a class="dropdown-item" href="fire-door-installers">Fire Door Installers</a>
             <a class="dropdown-item" href="fire-door-maintenance">Fire Door Maintenance</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item active" href="">Landlord Services</a>
             <a class="dropdown-item" href="property-maintenance">Property Maintenance</a>
-
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="">Resources</a>
-            
+            <a class="dropdown-item disabled" href="">Resources</a>
           </div>
         </li>
 
