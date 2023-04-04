@@ -8,9 +8,9 @@
       <ul class="navbar-nav">
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="areas-covered" id="themes">Fire Door Services</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="areas-covered-fire-door-services" id="themes">Fire Door Services</a>
           <div class="dropdown-menu" aria-labelledby="themes">
-            <a class="dropdown-item" href="areas-covered">Areas Covered</a>
+            <a class="dropdown-item" href="areas-covered-fire-door-services">Areas Covered</a>
             <div class="dropdown-divider"></div>
 
             <?php foreach ($locations as $dropdown_location) {
