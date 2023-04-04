@@ -56,16 +56,16 @@
       </ul>
       <ul class="navbar-nav ms-md-auto">
         <li class="nav-item">
-          <a target="_blank" rel="noopener" class="nav-link" href="<?= $social_link_linkedin ?>"><i class="bi bi-linkedin"></i> Linkedin</a>
+          <a target="_blank" rel="noopener" class="nav-link" href="<?= $social_link_linkedin ?>"><i class="bi bi-linkedin" style="font-size: 1.5rem;"></i></a>
         </li>
         <li class="nav-item">
-          <a target="_blank" rel="noopener" class="nav-link" href="<?= $social_link_facebook ?>"><i class="bi bi-facebook"></i> Facebook</a>
+          <a target="_blank" rel="noopener" class="nav-link" href="<?= $social_link_facebook ?>"><i class="bi bi-facebook" style="font-size: 1.5rem;"></i></a>
         </li>
         <li class="nav-item">
-          <a target="_blank" rel="noopener" class="nav-link" href="<?= $social_link_twitter ?>"><i class="bi bi-twitter"></i> Twitter</a>
+          <a target="_blank" rel="noopener" class="nav-link" href="<?= $social_link_twitter ?>"><i class="bi bi-twitter" style="font-size: 1.5rem;"></i></a>
         </li>
         <li class="nav-item">
-          <a target="_blank" rel="noopener" class="nav-link" href="<?= $social_link_insta ?>"><i class="bi bi-instagram"></i> Instagram</a>
+          <a target="_blank" rel="noopener" class="nav-link" href="<?= $social_link_insta ?>"><i class="bi bi-instagram" style="font-size: 1.5rem;"></i></a>
         </li>
       </ul>
     </div>
