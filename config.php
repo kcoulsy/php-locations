@@ -8,20 +8,6 @@ $pagenotfound_template = 'controllers/404.php';
 $website_name = 'Magic';
 
 $locations = [
-    'halifax',
-    'bradshaw',
-    'leeds',
-    'bradford',
-    'bingley',
-    'bramhope',
-    'brighouse',
-    'guiseley',
-    'harrogate',
-    'horsforth',
-    'ilkley',
-    'manchester',
-    'skipton',
-    'otley',
     'bath',
     'birmingham',
     'bradford',
