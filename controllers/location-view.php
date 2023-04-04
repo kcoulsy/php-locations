@@ -1,6 +1,8 @@
 <?php
 $location = ucwords($location);
 
+$current_service = 'Fire Door Services ';
+
 $title = $location . ' ' . $current_service;
 
 $meta_desc = $location . ' ' . $current_service;

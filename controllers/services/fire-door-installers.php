@@ -1,7 +1,14 @@
 <?php
-$title = 'Home';
+$location = ucwords($location);
 
-$meta_desc = 'Home meta description';
+$current_service = 'Fire Door Installers ';
+
+$title = $location . ' ' . $current_service;
+
+$meta_desc = $location . ' ' . $current_service;
+
+
+$meta_desc = 'this is a custom meta description';
 
 require 'includes/head.php';
 
@@ -19,7 +26,7 @@ require 'includes/header.php';
                 <?php require 'includes/carousel.php'; ?>
 
             </div>
-            
+
             <div class="row">
 
                 <div class="container" id="">
@@ -64,13 +71,13 @@ require 'includes/header.php';
 
 <?php
 
-require 'views/partials/who-are-we.php'; 
+require 'views/partials/who-are-we.php';
 
-require 'views/partials/why-fire-doors.php'; 
+require 'views/partials/why-fire-doors.php';
 
-require 'views/partials/fire-door-failures.php'; 
+require 'views/partials/fire-door-failures.php';
 
-require 'views/partials/our-services.php'; 
+require 'views/partials/our-services.php';
 
 include_once 'includes/footer-nav.php';
 

@@ -77,14 +77,15 @@ $locations = [
     ];
 
     
-
-
-$current_service = 'Fire Door Services ';
-$current_service_url = 'fire-door-services';
+$service_services_url = 'fire-door-services';
+$service_inspectors_url = 'fire-door-inspectors';
+$service_installers_url = 'fire-door-installers';
 
 // (location) is replaced with the locations in $locations.
 $routes = [
-    '(location)-'.$current_service_url.'' => 'controllers/location-view.php',
+    '(location)-'.$service_services_url.'' => 'controllers/location-view.php',
+    '(location)-'.$service_inspectors_url.'' => 'controllers/services/fire-door-inspectors.php',
+    '(location)-'.$service_installers_url.'' => 'controllers/services/fire-door-installers.php',
     'showcase' => 'controllers/showcase.php',
     'about' => 'controllers/about/about.php',
     'qualifications' => 'controllers/about/qualifications.php',
@@ -93,8 +94,7 @@ $routes = [
     'contact' => 'controllers/contact.php',
     'areas-covered' => 'controllers/areas-covered.php',
     'projects' => 'controllers/projects.php',
-    'fire-door-inspection' => 'controllers/services/fire-door-inspection.php',
-    'fire-door-installation' => 'controllers/services/fire-door-installation.php',
+    'fire-door-installers' => 'controllers/services/fire-door-installers.php',
     'fire-door-maintenance' => 'controllers/services/fire-door-maintenance.php',
     'property-maintenance' => 'controllers/services/property-maintenance.php'
 ];

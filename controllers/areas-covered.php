@@ -18,7 +18,7 @@ require 'includes/header.php';
 
 
     <?php foreach ($locations as $dropdown_location) {
-              echo '<a class="btn btn-primary btn-sm m-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Visit this area" href="' . $dropdown_location . '-' . $current_service_url . '">' . ucfirst($dropdown_location) . '</a>';
+              echo '<a class="btn btn-primary btn-sm m-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Visit this area" href="' . $dropdown_location . '-' . $service_services_url . '">' . ucfirst($dropdown_location) . '</a>';
             } ?>
 
 </div> <!-- container -->
