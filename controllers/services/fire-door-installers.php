@@ -1,6 +1,6 @@
 <?php
 // $location = ucwords($location);
-$location = $website_name;
+$location = WEBSITE_NAME;
 
 $current_service = 'Fire Door Installers';
 

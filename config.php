@@ -5,7 +5,8 @@ $base_url = 'http://localhost/php-locations/';
 $homepage_template = 'controllers/home.php';
 $pagenotfound_template = 'controllers/404.php';
 
-$website_name = 'Magic';
+define("BUSINESS_NAME", "BUSINESS NAME");
+define("WEBSITE_NAME", "WEBSITE NAME");
 
 $locations = [
     'bath',
