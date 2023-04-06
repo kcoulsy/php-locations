@@ -1,8 +1,8 @@
-body {
+/* body {
     padding-top: 120px
-}
+} */
 
-iframe {
+/* iframe {
     overflow: hidden;
     border: none
 }
@@ -19,9 +19,9 @@ iframe {
 #home .navbar-brand .nav-link,#help .navbar-brand .nav-link {
     display: inline-block;
     margin-right: -30px
-}
+} */
 
-#home {
+/* #home {
     padding-top: 0
 }
 
@@ -36,13 +36,12 @@ iframe {
 .bs-docs-section .page-header h1 {
     padding: 2rem 0;
     font-size: 3rem
-}
+} */
 
 .dropdown-menu.show[aria-labelledby=themes] {
     display: flex;
     flex-wrap: wrap;
-    /* width: 420px; */
-    width: 420px
+    width: 600px
 }
 
 .dropdown-menu.show[aria-labelledby=themes] .dropdown-item {
@@ -53,11 +52,11 @@ iframe {
     width: 100%
 }
 
-.bs-component {
+/* .bs-component {
     position: relative
-}
+} */
 
-.bs-component+.bs-component {
+/* .bs-component+.bs-component {
     margin-top: 1rem
 }
 
@@ -84,7 +83,7 @@ iframe {
     display: inline-block;
     width: 220px;
     margin: 20px
-}
+} */
 
 .source-button {
     position: absolute;
@@ -222,27 +221,6 @@ iframe {
 
 .section-preview .lead {
     margin-bottom: 2em
-}
-
-.sponsor a {
-    text-decoration: none
-}
-
-.sponsor #carbonads {
-    max-width: 240px;
-    margin: 0 auto
-}
-
-.sponsor .carbon-text {
-    display: block;
-    margin-top: 1em;
-    font-size: 12px
-}
-
-.sponsor .carbon-poweredby {
-    float: right;
-    margin-top: 1em;
-    font-size: 10px
 }
 
 @media(max-width: 767px) {

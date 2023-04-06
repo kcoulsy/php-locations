@@ -15,7 +15,7 @@
     
     <script src="assets/jquery/jquery.min.js"></script>
 
-    <!-- <script src="assets/js/views/view.contact.js"></script> -->
+    <script src="assets/js/views/view.contact.js"></script>
 
     <?php if (!empty($has_contact_form) && $has_contact_form == true) { ?>
 
