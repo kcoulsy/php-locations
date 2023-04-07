@@ -3,7 +3,7 @@
     <div class="row g-4 py-3 row-cols-1 row-cols-lg-1">
         <div class="feature col">
             <p>We inspect, repair, maintain, supply and install fire doors and frames.</p>
-            <p>We also provide a landlord property maintenance service.</p>
+            <p>We also provide a landlord property maintenance and support service.</p>
             <a href="about" class="">More about us...</a>
         </div>
     </div>
