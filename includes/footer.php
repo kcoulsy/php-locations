@@ -1,12 +1,21 @@
 
+
 </body>
     <!-- Vendor -->
-    <script src="<?php echo $base_url; ?>libs/popper/popper.min.js"></script>
-    <script src="<?php echo $base_url; ?>libs/jquery/jquery.min.js"></script>
-    <script src="<?php echo $base_url; ?>libs/bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://bootswatch.com/_vendor/prismjs/prism.js"></script> -->
+    <!-- <script src="https://bootswatch.com/_assets/js/custom.js"></script> -->
 
     <!-- Theme Custom -->
-    <script src="<?php echo $base_url; ?>libs/js/main.js"></script>
+
+    <!-- FORM NOT SUBMITTING DELETED THIS DUE TO TESTING -->
+    <script src="<?php echo $base_url; ?>assets/js/main.js"></script>
+    
+    <script src="assets/jquery/jquery.min.js"></script>
+
+    <script src="assets/js/views/view.contact.js"></script>
 
     <?php if (!empty($has_contact_form) && $has_contact_form == true) { ?>
 

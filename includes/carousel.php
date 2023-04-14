@@ -1,47 +1,64 @@
-<div id="myCarousel" class="carousel slide" data-ride="carousel" style="height: 400px; overflow: hidden;">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
+
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
+    </div>
+    <div class="carousel-inner rounded-3 shadow-lg">
         <div class="carousel-item active">
-        <img class="first-slide" src="https://www.potup.com/wp-content/uploads/2019/01/EmpireStateBuildingAdmission.jpg" style="width: 100%" alt="First slide">
-        <div class="container">
-            <div class="carousel-caption text-left">
-            <h1>Example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            <img src="assets/images/fire_door_keep_shut.jpeg" width="100%" height="100%" alt="<?= $location . ' ' . $current_service ?>" class="opacity-50">
+            <div class="container">
+                <!-- <div class="carousel-caption text-start"> -->
+                <div class="carousel-caption">
+                    <h1 style="color:#2c3e50;">Fire Door Inspections</h1>
+                    <h2 style="color:#2c3e50;">Safety First</h2>
+                    <p style="color:#2c3e50;">Here to assist to bring your fire doors up to regulation</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Hook</a></p>
+                </div>
             </div>
-        </div>
         </div>
         <div class="carousel-item">
-        <img class="second-slide" src="https://s7d2.scene7.com/is/image/honeywellstage/ConnectedBuildingTLHero1800x900?wid=1100&hei=550" style="width: 100%" alt="Second slide">
-        <div class="container">
-            <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            <img src="assets/images/door-closer-open.jpeg" width="100%" height="100%" alt="<?= $location . ' ' . $current_service ?>" class="opacity-50">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 style="color:#2c3e50;">Fire Door Maintenance</h1>
+                    <h2 style="color:#2c3e50;">Repair Service</h2>
+                    <p style="color:#2c3e50;">Let's see if we can fix your fire doors problems</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Hook</a></p>
+                </div>
             </div>
-        </div>
         </div>
         <div class="carousel-item">
-        <img class="third-slide" src="https://www.euractiv.com/wp-content/uploads/sites/2/2018/07/Smart_buildings-800x450.jpg" style="width: 100%" alt="Third slide">
-        <div class="container">
-            <div class="carousel-caption text-right">
-            <h1>One more for good measure.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            <img src="assets/images/door-hanging-1.jpeg" width="100%" height="100%" alt="<?= $location . ' ' . $current_service ?>" class="opacity-50">
+            <div class="container">
+                <div class="carousel-caption text-end">
+                    <h1 style="color:#2c3e50;">Fire Door Installation</h1>
+                    <h2 style="color:#2c3e50;">Accredited Installers</h2>
+                    <p style="color:#2c3e50;">Here to install your fire doors to current regulations</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Hook</a></p>
+                </div>
             </div>
         </div>
+        <div class="carousel-item">
+            <img src="assets/images/building-maintenance.jpeg" width="100%" height="100%" alt="<?= $location . ' ' . $current_service ?>" class="opacity-50">
+            <div class="container">
+                <div class="carousel-caption text-end">
+                    <h1 style="color:#2c3e50;">Property Maintenance</h1>
+                    <h2 style="color:#2c3e50;">Buildings service and repairs</h2>
+                    <p style="color:#2c3e50;">As Qualified tradespeople we have the knowledge, expertise, experience and commercial tools to do a professional bespoke service</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Hook</a></p>
+                </div>
+            </div>
         </div>
     </div>
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
+        <span class="visually-hidden">Next</span>
+    </button>
 </div>
