@@ -120,7 +120,7 @@ $meta_author = 'Coulsy';
 $meta_image = $base_url . '';
 
 
-$current_pro = $meta_author .' '. $current_product;
+$current_pro = $meta_author .' '. ($current_product ?? '');
 
 $address_line_1 = 'Great Scausby Barn';
 $address_line_2 = 'Bradshaw';
@@ -135,7 +135,7 @@ $phone_mobile_2 = '';
 $email_main = 'robert@coulsy.co.uk';
 
 // COPYRIGHT ---------------------------------------------------------------------
-$copyright				=	'Copyright &copy; 2023 - Coulsy '. $current_product .'  &trade; - All rights reserved';
+$copyright				=	'Copyright &copy; 2023 - Coulsy '. ($current_product ?? '') .'  &trade; - All rights reserved';
 $developer				=	'Designed &amp; Maintained By <a href="http://coulsy.co.uk" target="_blank">Coulsy&trade;</a> - W3C';
 
 $social_link_insta = '#';
