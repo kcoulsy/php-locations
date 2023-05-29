@@ -2,9 +2,6 @@
 
 $base_url = 'http://localhost/php-locations/';
 
-$homepage_template = 'controllers/home.php';
-$pagenotfound_template = 'controllers/404.php';
-
 define("BUSINESS_NAME", "COULSY");
 define("WEBSITE_NAME", "WEBSITE NAME");
 
@@ -63,45 +60,14 @@ $locations = [
     'wolverhampton',
     'worcester',
     'york'
-    ];
+];
 
-    
+
 $service_services_url = 'fire-door-services';
 $service_inspectors_url = 'fire-door-inspectors';
 $service_installers_url = 'fire-door-installers';
 $service_fd_maintenance_url = 'fire-door-maintenance';
 $service_prop_maintenance_url = 'property-maintenance';
-
-// (location) is replaced with the locations in $locations.
-$routes = [
-    '(location)-'.$service_services_url.'' => 'controllers/services/fire-door-services-area.php',
-    '(location)-'.$service_inspectors_url.'' => 'controllers/services/fire-door-inspectors-area.php',
-    '(location)-'.$service_installers_url.'' => 'controllers/services/fire-door-installers-area.php',
-    '(location)-'.$service_fd_maintenance_url.'' => 'controllers/services/fire-door-maintenance-area.php',
-    '(location)-'.$service_prop_maintenance_url.'' => 'controllers/services/property-maintenance-area.php',
-
-    'fire-door-inspectors' => 'controllers/services/fire-door-inspectors.php',
-    'fire-door-installers' => 'controllers/services/fire-door-installers.php',
-    'fire-door-maintenance' => 'controllers/services/fire-door-maintenance.php',
-    'fire-door-services' => 'controllers/services/fire-door-services.php',
-    'property-maintenance' => 'controllers/services/property-maintenance.php',
-
-    'showcase' => 'controllers/showcase.php',
-    'about' => 'controllers/about/about.php',
-    'qualifications' => 'controllers/about/qualifications.php',
-    'compliance' => 'controllers/about/compliance.php',
-    'sustainability' => 'controllers/about/sustainability.php',
-    'contact' => 'controllers/contact.php',
-    'areas-covered' => 'controllers/areas-covered.php',
-    'areas-covered-property-maintenance' => 'controllers/services/property-maintenance-areas.php',
-    'areas-covered-fire-door-maintenance' => 'controllers/services/fire-door-maintenance-areas.php',
-    'areas-covered-fire-door-services' => 'controllers/services/fire-door-services-areas.php',
-    'areas-covered-fire-door-installers' => 'controllers/services/fire-door-installers-areas.php',
-    'areas-covered-fire-door-inspectors' => 'controllers/services/fire-door-inspectors-areas.php',
-    'projects' => 'controllers/projects.php'
-];
-
-// $location_name is also exposed from the (location) above
 
 // Google Recaptcha details
 $recaptcha_secret = '6Ldb4TwlAAAAAEMA78R_ZML8js83UW4Yoei7tw7N';
@@ -119,9 +85,6 @@ $default_meta_desc = 'Coulsy Meta Description';
 $meta_author = 'Coulsy';
 $meta_image = $base_url . '';
 
-
-$current_pro = $meta_author .' '. ($current_product ?? '');
-
 $address_line_1 = 'Great Scausby Barn';
 $address_line_2 = 'Bradshaw';
 $address_line_3 = 'Halifax';
@@ -135,8 +98,8 @@ $phone_mobile_2 = '';
 $email_main = 'robert@coulsy.co.uk';
 
 // COPYRIGHT ---------------------------------------------------------------------
-$copyright				=	'Copyright &copy; 2023 - Coulsy '. ($current_product ?? '') .'  &trade; - All rights reserved';
-$developer				=	'Designed &amp; Maintained By <a href="http://coulsy.co.uk" target="_blank">Coulsy&trade;</a> - W3C';
+$copyright = 'Copyright &copy; 2023 - Coulsy &trade; - All rights reserved';
+$developer = 'Designed &amp; Maintained By <a href="http://coulsy.co.uk" target="_blank">Coulsy&trade;</a> - W3C';
 
 $social_link_insta = '#';
 $social_link_twitter = '#';

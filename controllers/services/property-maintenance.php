@@ -1,5 +1,5 @@
 <?php
-// $location = ucwords($location);
+// $location = getLocation('-property-maintenance');
 $location = WEBSITE_NAME;
 
 $current_service = 'Property Maintenance';
@@ -51,13 +51,13 @@ require 'includes/header.php';
 
 <?php
 
-require 'views/partials/who-are-we.php'; 
+require 'views/partials/who-are-we.php';
 
-require 'views/partials/why-fire-doors.php'; 
+require 'views/partials/why-fire-doors.php';
 
-require 'views/partials/fire-door-failures.php'; 
+require 'views/partials/fire-door-failures.php';
 
-require 'views/partials/our-services.php'; 
+require 'views/partials/our-services.php';
 
 include_once 'includes/footer-nav.php';
 

@@ -1,5 +1,6 @@
 <?php
-$location = ucwords($location);
+
+$location = getLocation('-fire-door-installers');
 
 $current_service = 'Fire Door Installers ';
 
@@ -47,13 +48,13 @@ require 'includes/header.php';
 </div> <!-- container -->
 
 <?php
-require 'views/partials/who-are-we-area.php'; 
+require 'views/partials/who-are-we-area.php';
 
 require 'views/partials/why-fire-doors.php';
 
 require 'views/partials/fire-door-failures.php';
 
-require 'views/partials/our-services-area.php'; 
+require 'views/partials/our-services-area.php';
 
 include_once 'includes/footer-nav.php';
 

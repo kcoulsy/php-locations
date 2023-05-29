@@ -1,5 +1,5 @@
 <?php
-$location = ucwords($location);
+$location = getLocation('-fire-door-inspectors');
 
 $current_service = 'Fire Door Inspectors ';
 
