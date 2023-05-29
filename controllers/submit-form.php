@@ -12,13 +12,13 @@ if (isset($_POST['title']) || empty($_POST['recaptcha_value'])) {
 $recaptcha_response = $_POST['recaptcha_value'];
 $remote_ip = $_SERVER['REMOTE_ADDR'];
 
-// require_once 'assets/recaptcha-master/src/autoload.php';
-// $recaptcha = new \ReCaptcha\ReCaptcha($recaptcha_secret);
+require_once 'assets/recaptcha-master/src/autoload.php';
+$recaptcha = new \ReCaptcha\ReCaptcha($_ENV['RECAPTCHA_SECRET_KEY']);
 
-// $resp = $recaptcha->setExpectedHostname($host_name)
-//     ->verify($recaptcha_response, $remote_ip);
+$resp = $recaptcha->setExpectedHostname($host_name)
+    ->verify($recaptcha_response, $remote_ip);
 
-if (validatePostParams()) {
+if (validatePostParams() && $resp->isSuccess()) {
     // Verified!
     if (sendEmail($base_url, $contact_form_from, $contact_form_to)) {
         returnResponse(true);

@@ -15,10 +15,10 @@
 
 <?php if (!empty($has_contact_form) && $has_contact_form == true) { ?>
 
-    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $recaptcha_api_key ?>"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $_ENV['RECAPTCHA_SITE_KEY'] ?>"></script>
     <script>
         grecaptcha.ready(function () {
-            grecaptcha.execute('<?php echo $recaptcha_api_key ?>', { action: 'homepage' }).then(function (token) {
+            grecaptcha.execute('<?php echo $_ENV['RECAPTCHA_SITE_KEY'] ?>', { action: 'homepage' }).then(function (token) {
                 var input = document.querySelector('[name="recaptcha_value"]');
                 if (input) input.value = token;
             });
