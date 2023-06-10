@@ -15,7 +15,7 @@
 
 <?php if (!empty($has_contact_form) && $has_contact_form == true) { ?>
 
-    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $_ENV['RECAPTCHA_SITE_KEY'] ?>"></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $_ENV['RECAPTCHA_SITE_KEY'] ?>"></script>
     <script>
         grecaptcha.ready(function () {
             grecaptcha.execute('<?php echo $_ENV['RECAPTCHA_SITE_KEY'] ?>', { action: 'homepage' }).then(function (token) {
@@ -23,7 +23,7 @@
                 if (input) input.value = token;
             });
         });
-    </script>
+    </script> -->
 
 <?php } ?>
 
