@@ -5,9 +5,6 @@
                 <ul class="list-unstyled">
                     <li class="float-end"><a href="#top">Back to top</a></li>
                     <li><a href="">Blog</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Blog</a></li>
                 </ul>
                 <p><?= $copyright ?></p>
                 <p><?= $developer ?></p>
