@@ -1,9 +1,9 @@
 <?php
 
-$base_url = 'http://localhost/php-locations/';
+$base_url = 'http://localhost:8000/';
 
 define("BUSINESS_NAME", "COULSY");
-define("WEBSITE_NAME", "WEBSITE NAME");
+define("WEBSITE_NAME", "Coulsy fire door services");
 
 $locations = [
     'bath',
@@ -85,10 +85,13 @@ $default_meta_desc = 'Coulsy Meta Description';
 $meta_author = 'Coulsy';
 $meta_image = $base_url . '';
 
-$address_line_1 = 'Great Scausby Barn';
-$address_line_2 = 'Bradshaw';
-$address_line_3 = 'Halifax';
-$address_line_4 = 'HX2 9UR';
+$address_home_line_1 = 'Rose Cottage';
+$address_home_line_2 = '1 Post Office Row';
+$address_home_line_3 = 'Bilton-in-Ainsty';
+$address_home_line_4 = 'York';
+$address_home_line_5 = 'YO26 7NW';
+
+$address_home = $address_home_line_1 . '<br>'  . $address_home_line_2 . '<br>'  . $address_home_line_3 . '<br>'  . $address_home_line_4 . '<br>'  . $address_home_line_5;
 
 $contact_name_1 = 'Robert';
 $phone_mobile_1 = '07544 030486';
@@ -98,7 +101,7 @@ $phone_mobile_2 = '';
 $email_main = 'robert@coulsy.co.uk';
 
 // COPYRIGHT ---------------------------------------------------------------------
-$copyright = 'Copyright &copy; 2023 - Coulsy &trade; - All rights reserved';
+$copyright = 'Copyright &copy; 2013 - 2023 - Coulsy &trade; - All rights reserved';
 $developer = 'Designed &amp; Maintained By <a href="http://coulsy.co.uk" target="_blank">Coulsy&trade;</a> - W3C';
 
 $social_link_insta = '#';
