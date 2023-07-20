@@ -5,7 +5,7 @@ $has_contact_form = true;
 <div class="card p-3">
 
     <h4 class="mb-2">Rapid response</h4>
-    <h3 class="fs-5 mb-1">Call :
+    <h3 class="fs-5 mb-1">Call or text :
         <?= $contact_name_1 ?> <a href="tel:<?= $phone_mobile_1 ?>" style="text-decoration: none"><?= $phone_mobile_1 ?></a>
     </h3>
     <hr>
@@ -15,23 +15,23 @@ $has_contact_form = true;
     <form id="contact-form" method="post" action="submit-form">
         <div class="form-group">
             <label for="form-name">Name</label>
-            <input type="text" placeholder="Your Name" value="" data-msg-required="Please enter your name."
+            <input type="text" placeholder="Enter your name" value="" data-msg-required="Please enter your name."
                 maxlength="30" class="form-control" name="name" id="name" required>
         </div>
         <div class="form-group">
             <label for="form-email">Email address</label>
-            <input type="text" name="email" class="form-control" id="form-email" placeholder="Enter Email" required />
+            <input type="text" name="email" class="form-control" id="form-email" placeholder="Enter your email" required />
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
             <label for="form-phone">Phone</label>
-            <input type="text" name="phone" class="form-control" id="form-phone" placeholder="Enter Phone Number"
+            <input type="text" name="phone" class="form-control" id="form-phone" placeholder="Enter your phone number"
                 required />
         </div>
         <div class="form-group">
             <label for="form-message">Message</label>
             <textarea class="form-control" name="message" id="form-message" rows="3"
-                placeholder="Enter Message"></textarea>
+                placeholder="Enter your message to us"></textarea>
         </div>
         <input type="text" class="d-none" name="site_location" id="site_location" value="<?= $url_string ?>" />
         <input type="hidden" name="recaptcha_value" id="recaptcha_value" value="" />
