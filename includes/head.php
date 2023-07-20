@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css" type="text/css">
 
     <link href="assets/css/carousel.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>

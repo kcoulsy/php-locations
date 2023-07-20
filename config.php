@@ -3,7 +3,7 @@
 $base_url = 'http://localhost:8000/';
 
 define("BUSINESS_NAME", "COULSY");
-define("WEBSITE_NAME", "Coulsy fire door services");
+define("WEBSITE_NAME", "Coulsy");
 
 $locations = [
     'bath',
