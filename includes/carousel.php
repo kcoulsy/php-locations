@@ -15,7 +15,7 @@
                     <h1 style="color:#2c3e50;">Fire Door Inspections</h1>
                     <h2 style="color:#2c3e50;">Safety First</h2>
                     <p style="color:#2c3e50;">Here to assist to bring your fire doors up to regulation</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Hook</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="fire-door-inspections">Proceed to fire door inspections</a></p>
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@
                     <h1 style="color:#2c3e50;">Fire Door Maintenance</h1>
                     <h2 style="color:#2c3e50;">Repair Service</h2>
                     <p style="color:#2c3e50;">Let's see if we can fix your fire doors problems</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Hook</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="fire-door-maintenance">Proceed to fire door maintenance</a></p>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
                     <h1 style="color:#2c3e50;">Fire Door Installation</h1>
                     <h2 style="color:#2c3e50;">Accredited Installers</h2>
                     <p style="color:#2c3e50;">Here to install your fire doors to current regulations</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Hook</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="fire-door-installation">Proceed to fire door Installation</a></p>
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@
                     <h1 style="color:#2c3e50;">Property Maintenance</h1>
                     <h2 style="color:#2c3e50;">Buildings service and repairs</h2>
                     <p style="color:#2c3e50;">As Qualified tradespeople we have the knowledge, expertise, experience and commercial tools to do a professional bespoke service</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Hook</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="property-maintenance">Proceed to property maintenance</a></p>
                 </div>
             </div>
         </div>

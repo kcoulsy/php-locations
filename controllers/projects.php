@@ -191,7 +191,7 @@ require 'includes/header.php';
 		</div>
 		<div class="col-lg-8">
 
-			<div class="project-detail-construction">
+			<div>
 
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elimttis adipiscing. Fusce in hendrerit purus. Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris. Donec nisi libero, adipiscing id pretium eget, consectetur sit amet leo. Nam at eros quis mi egestas fringilla non nec purus.</p>
 

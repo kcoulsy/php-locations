@@ -20,9 +20,7 @@ require 'includes/header.php';
 
 		<div class="col-lg-5">
 
-			<div class="project-detail-construction">
-
-				<h3>UN.org<small class="text-muted"> “meeting the needs of the present without compromising the ability of future generations to meet their own needs.”</small></h3>
+			<div>
 
 				<p class="lead mt-4">Environmental and pollution prevention</p>
 				<p>The director recognises day to day operations of the business will impact on the environment, however, we will strive to minimise the potentially harmful effects of any such activity wherever and whenever practicable.<br>Initiatives that reduce the carbon footprint of the business.</p>
@@ -37,7 +35,7 @@ require 'includes/header.php';
 				<p class="lead mt-4">Social</p>
 				<p>Initiatives promoting the wellbeing, health and safety of communities, customers and employees.</p>
 
-				<p class="lead mt-4"><a href="#" target="" >Our Environmental policy download</a></p>
+				<!-- <p class="lead mt-4"><a href="#" target="" >Our Environmental policy download</a></p> -->
 			</div>
 		</div>
 

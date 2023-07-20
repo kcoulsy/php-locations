@@ -20,7 +20,7 @@ require 'includes/header.php';
 
 		<div class="col-lg-5">
 
-			<div class="project-detail-construction">
+			<div>
 
 				<h3>R<small class="text-muted">est assured that we are fully qualified</small></h3>
 				<p class="lead"></p>
@@ -37,13 +37,14 @@ require 'includes/header.php';
 
 						<h5 class="mt-1">(CSCS) certified</h5>
 						<p>(CSCS) Construction Skills Certification Scheme is used to measure the different levels of qualifications between contractors.</p>
-						<p>We have passed the construction skill health and safety test to obtain gold card status.</p>
+						<p>We have passed the construction skill health and safety test to obtain  <span style="color:#f39c12">gold</span> card status.</p>
 
 						<hr>
 						<h5 class="mt-1">Additional</h5>
 						<ul>
 							<li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Level 3 Award in Fire Door Safety (6581)</li>
 							<li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Reach & Boom hydraulic lifts</li>
+							<li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Asbestos Awareness</li>
 							<li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Asbestos Awareness</li>
 						</ul>
 					</div>

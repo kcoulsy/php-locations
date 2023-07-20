@@ -42,10 +42,9 @@
             <a class="dropdown-item" href="qualifications">Our Qualifications</a>
             <a class="dropdown-item" href="compliance">Our Compliance</a>
             <a class="dropdown-item" href="sustainability">Our Sustainability</a>
-            <div class="dropdown-divider"></div>
+            <!-- <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="showcase">Our Showcase</a>
-            <a class="dropdown-item" href="projects">Our Projects</a>
-
+            <a class="dropdown-item" href="projects">Our Projects</a> -->
           </div>
         </li>
         <li class="nav-item">
