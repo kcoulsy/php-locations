@@ -20,7 +20,7 @@ require 'includes/header.php';
 
 		<div class="col-lg-5">
 
-			<div class="project-detail-construction">
+			<div>
 
 				<h3>O<small class="text-muted">ur compliance as a company is fully committed to health and safety and take our duty of care seriously</small></h3>
 
@@ -43,8 +43,8 @@ require 'includes/header.php';
 				<p>Risk assesments<br>Method statements<br>Equality</p>
 				<p>The health and safety of our clients, operatives and the public is our paramount concern and a strong emphasis is seriously followed.</p>
 				<p>As our client, you can rest assured that we have met all the necessary health and safety standards to work within the law for the public and private sectors.
-				<p>We are happy to provide our pre tender risk assessments, Method statements and any other specific documentation that maybe required.</p>
-					Our site operatives receive full Health and safety competency training.</p>
+				<p>We are happy to provide our pre tender risk assessments, method statements and any other specific documentation that maybe required.</p>
+					Our site operatives receive full health and safety competency training.</p>
 
 			</div>
 		</div>
