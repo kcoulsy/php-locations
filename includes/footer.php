@@ -15,14 +15,22 @@
 
 <?php if (!empty($has_contact_form) && $has_contact_form == true) { ?>
 
-    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo $_ENV['RECAPTCHA_SITE_KEY'] ?>"></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"></script>
     <script>
-        grecaptcha.ready(function () {
-            grecaptcha.execute('<?php echo $_ENV['RECAPTCHA_SITE_KEY'] ?>', { action: 'homepage' }).then(function (token) {
-                var input = document.querySelector('[name="recaptcha_value"]');
-                if (input) input.value = token;
+        var onSubmit = function (token) {
+            var input = document.querySelector('[name="recaptcha_value"]');
+            if (input) input.value = token;
+
+            // var form = document.getElementById('contact-form');
+            window.submitForm();
+        };
+
+        var onloadCallback = function () {
+            grecaptcha.render('submit-form', {
+                'sitekey': '<?php echo $_ENV['RECAPTCHA_SITE_KEY'] ?>',
+                'callback': onSubmit
             });
-        });
+        };
     </script>
 
 <?php } ?>

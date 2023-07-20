@@ -20,7 +20,8 @@ $has_contact_form = true;
         </div>
         <div class="form-group">
             <label for="form-email">Email address</label>
-            <input type="text" name="email" class="form-control" id="form-email" placeholder="Enter your email" required />
+            <input type="text" name="email" class="form-control" id="form-email" placeholder="Enter your email"
+                required />
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
@@ -33,7 +34,7 @@ $has_contact_form = true;
             <textarea class="form-control" name="message" id="form-message" rows="3"
                 placeholder="Enter your message to us"></textarea>
         </div>
-        <input type="text" class="d-none" name="site_location" id="site_location" value="<?= $url_string ?>" />
+        <input type="text" class="d-none" name="site_location" id="site_location" value="<?= ($url_string ?? '') ?>" />
         <input type="hidden" name="recaptcha_value" id="recaptcha_value" value="" />
 
         <button type="submit" id="submit-form" class="btn btn-sm btn-primary mt-2">Submit Form</button>

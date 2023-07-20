@@ -15,11 +15,12 @@ $remote_ip = $_SERVER['REMOTE_ADDR'];
 require_once 'assets/recaptcha-master/src/autoload.php';
 $recaptcha = new \ReCaptcha\ReCaptcha($_ENV['RECAPTCHA_SECRET_KEY']);
 
-$resp = $recaptcha->setExpectedHostname($host_name)
+$resp = $recaptcha->setExpectedHostname($_SERVER['HTTP_HOST'])
     ->verify($recaptcha_response, $remote_ip);
 
-if (validatePostParams() 
-// && $resp->isSuccess()
+if (
+    validatePostParams()
+    && $resp->isSuccess()
 ) {
     // Verified!
     if (sendEmail($base_url, $contact_form_from, $contact_form_to)) {
@@ -28,7 +29,6 @@ if (validatePostParams()
         returnResponse(false, 'Unable to send email');
     }
 } else {
-    // $errors = $resp->getErrorCodes();
     returnResponse(false, 'Recaptcha Failed');
 }
 
@@ -65,11 +65,11 @@ function sendEmail($base_url, $contact_form_from, $contact_form_to)
     </head>
     <body>
     <h4>Contact Form Submission</h4>
-    <p>Name: " . esc($_POST['name']) . "</p>
-    <p>Email: " . esc($_POST['email']) . "</p>
-    <p>Phone: " . esc($_POST['phone']) . "</p>
-    <p>Location: " . $base_url . esc($_POST['site_location']) . "</p>
-    <p>Message: " . esc($_POST['message']) . "</p>
+    <p>Name: " . esc($_POST['name'] ?? '') . "</p>
+    <p>Email: " . esc($_POST['email'] ?? '') . "</p>
+    <p>Phone: " . esc($_POST['phone'] ?? '') . "</p>
+    <p>Location: " . $base_url . esc($_POST['site_location'] ?? '') . "</p>
+    <p>Message: " . esc($_POST['message'] ?? '') . "</p>
     </body>
     </html>
     ";
@@ -78,28 +78,26 @@ function sendEmail($base_url, $contact_form_from, $contact_form_to)
     $mail = new PHPMailer(true);
 
     try {
-        //Server settings
-        $mail->isSMTP(); //Send using SMTP
-        $mail->Host = $_ENV['SMTP_HOST']; //Set the SMTP server to send through
-        $mail->SMTPAuth = true; //Enable SMTP authentication
-        $mail->Username = $_ENV['SMTP_USER']; //SMTP username
-        $mail->Password = $_ENV['SMTP_PASS']; //SMTP password
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; //Enable implicit TLS encryption
-        $mail->Port = $_ENV['SMTP_PORT']; //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+        $sendgrid = new SendGrid($_ENV['SENDGRID_API_KEY']);
+        $email = new \SendGrid\Mail\Mail();
 
-        //Recipients
-        $mail->setFrom($_ENV['CONTACT_FROM_EMAIL'], 'Contact from');
-        $mail->addAddress($_ENV['CONTACT_TO_EMAIL'], $_ENV['CONTACT_TO_NAME']); //Add a recipient
 
-        //Content
-        $mail->isHTML(true); //Set email format to HTML
-        $mail->Subject = 'Contact Form Submission from ' . esc($_POST['name']);
-        $mail->Body = $message;
+        $email->setFrom($_ENV['CONTACT_FROM_EMAIL'], "Contact Form");
+        $email->addTo($_ENV['CONTACT_TO_EMAIL'], "Contact Form");
+        $email->setSubject('Contact Form Submission from ' . esc($_POST['name']));
+        $email->addContent(
+            "text/plain",
+            $message
+        );
+        $email->addContent(
+            "text/html",
+            $message
+        );
+        $response = $sendgrid->send($email);
 
-        return $mail->send();
+        return true;
         // echo 'Message has been sent';
     } catch (Exception $e) {
-        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         return false;
     }
 

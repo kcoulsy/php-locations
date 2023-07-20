@@ -27,8 +27,7 @@ $(document).ready(function () {
   $phoneField.on("keydown", hideAlert);
   $messageField.on("keydown", hideAlert);
 
-  $contactForm.submit(function (event) {
-    event.preventDefault();
+  window.submitForm = function () {
     hideAlert();
 
     if ($fakeFieldTitle.val()) {
@@ -69,5 +68,5 @@ $(document).ready(function () {
       .fail(function () {
         $failAlert.fadeIn();
       });
-  });
+  };
 });
