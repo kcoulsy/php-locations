@@ -28,7 +28,10 @@ class ComposerStaticInitbb76ee24676255d6790191a18544aed9
         ),
         'P' => 
         array (
+            'Psr\\SimpleCache\\' => 16,
+            'Psr\\Log\\' => 8,
             'PhpOption\\' => 10,
+            'PageCache\\' => 10,
             'PHPMailer\\PHPMailer\\' => 20,
         ),
         'G' => 
@@ -78,9 +81,21 @@ class ComposerStaticInitbb76ee24676255d6790191a18544aed9
         array (
             0 => __DIR__ . '/..' . '/sendgrid/php-http-client/lib',
         ),
+        'Psr\\SimpleCache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/simple-cache/src',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
         'PhpOption\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
+        ),
+        'PageCache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mmamedov/page-cache/src',
         ),
         'PHPMailer\\PHPMailer\\' => 
         array (

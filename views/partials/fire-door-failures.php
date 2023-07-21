@@ -1,5 +1,6 @@
 <div class="container" id="">
-    <h3 class="pb-2 border-bottom mt-4">Fire door <small class="text-muted"><i class="bi bi-clipboard-x"></i> Common Failures</small></h3>
+    <h3 class="pb-2 border-bottom mt-4">Fire door <small class="text-muted"><i class="bi bi-clipboard-x"></i> Common
+            Failures</small></h3>
     <div class="row g-4 py-3 row-cols-2 row-cols-lg-2">
         <div class="feature col">
             <ul>
@@ -14,7 +15,8 @@
                 <li>Doors incorrectly fitted or damaged</li>
                 <li>Incorrect or faulty door furniture and hinge specification</li>
                 <!-- Button trigger modal -->
-                <li>Incorrect, damaged or failed <a href="#" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">fire door seals</a></li>
+                <li>Incorrect, damaged or failed <a href="#" class="" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">fire door seals</a></li>
                 <li>Glazing is the incorrect specification</li>
             </ul>
         </div>
@@ -33,7 +35,15 @@
                 </div>
                 <div class="modal-body">
                     <p>
-                        <img src="assets/images/Fire-seal-FD30-isometric.png" style="max-width: 460px;">
+                        <img sizes="(max-width: 800px) 100vw, 800px" srcset="
+/assets/images/Fire-seal-FD30-isometric_prrh44/Fire-seal-FD30-isometric_prrh44_c_scale,w_200.png 200w,
+/assets/images/Fire-seal-FD30-isometric_prrh44/Fire-seal-FD30-isometric_prrh44_c_scale,w_397.png 397w,
+/assets/images/Fire-seal-FD30-isometric_prrh44/Fire-seal-FD30-isometric_prrh44_c_scale,w_537.png 537w,
+/assets/images/Fire-seal-FD30-isometric_prrh44/Fire-seal-FD30-isometric_prrh44_c_scale,w_648.png 648w,
+/assets/images/Fire-seal-FD30-isometric_prrh44/Fire-seal-FD30-isometric_prrh44_c_scale,w_738.png 738w,
+/assets/images/Fire-seal-FD30-isometric_prrh44/Fire-seal-FD30-isometric_prrh44_c_scale,w_800.png 800w"
+                            src="/assets/images/Fire-seal-FD30-isometric_prrh44/Fire-seal-FD30-isometric_prrh44_c_scale,w_800.png"
+                            style="max-width: 460px;" width="100%" height="100%" alt="Fire seal" loading="lazy">
                     </p>
                 </div>
                 <div class="modal-footer">

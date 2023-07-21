@@ -1,3 +1,11 @@
+import $ from "jquery";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "../css/carousel.css";
+import "../css/custom.min.css";
+import "../css/bootswatch-custom.min.css";
+import "../css/bootswatch-flatly.css";
+import "../css/prism-okaidia.css";
+
 $(document).ready(function () {
   var $contactForm = $("#contact-form");
 
