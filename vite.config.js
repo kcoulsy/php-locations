@@ -36,6 +36,9 @@ export default defineConfig({
             "includes/**/*.php",
             "views/**/*.php",
           ],
+          safelist: {
+            standard: [/show/],
+          },
         }),
       ],
     },
