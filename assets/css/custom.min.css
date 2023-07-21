@@ -1,3 +1,8 @@
+:root {
+    --bs-link-color: #05bd9b;
+    --bs-link-color-rgb: 5, 189, 55;
+}
+
 /* body {
     padding-top: 120px
 } */

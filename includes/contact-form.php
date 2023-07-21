@@ -6,7 +6,8 @@ $has_contact_form = true;
 
     <h4 class="mb-2">Rapid response</h4>
     <h3 class="fs-5 mb-1">Call or text :
-        <?= $contact_name_1 ?> <a href="tel:<?= $phone_mobile_1 ?>" style="text-decoration: none"><?= $phone_mobile_1 ?></a>
+        <?= $contact_name_1 ?> <a href="tel:<?= $phone_mobile_1 ?>"
+            style="text-decoration: none; color: #ff1d1d; font-weight: bold; letter-spacing: 1px;"><?= $phone_mobile_1 ?></a>
     </h3>
     <hr>
     <p class="lead">Instant message<br><small class="text-muted">Leave a few details to discover how we can
@@ -40,11 +41,11 @@ $has_contact_form = true;
         <button type="submit" id="submit-form" class="btn btn-sm btn-primary mt-2">Submit Form</button>
     </form>
 
-    <div id="contact-error-alert" class="alert alert-danger mt-2 mb-0" role="alert">
+    <div id="contact-error-alert" class="alert alert-danger mt-2 mb-0" role="alert" style="display: none;">
         Something went wrong when submitting the form!
     </div>
 
-    <div id="contact-success-alert" class="alert alert-primary mt-2 mb-0" role="alert">
+    <div id="contact-success-alert" class="alert alert-primary mt-2 mb-0" role="alert" style="display: none;">
         Form Submitted Successfully!
     </div>
 </div>
