@@ -102,9 +102,12 @@ function cssTag(string $entry): string
 
   $tags = '';
   foreach (cssUrls($entry) as $url) {
-    $tags .= '<link rel="stylesheet" href="'
-      . $url
-      . '">';
+    // $tags .= '<link rel="stylesheet" href="'
+    //   . $url
+    //   . '">';
+    $tags .= '<style>'
+      . file_get_contents('.' . $url)
+      . '</style>';
   }
   return $tags;
 }
