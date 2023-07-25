@@ -1,7 +1,9 @@
-
 <div class="container" id="">
-    <h1 class="fs-3">Welcome to <?= $location . ' ' . $current_service ?></h1>
-    <h3 class="pb-2 border-bottom mt-4">Our <small class="text-muted"><i class="bi bi-clipboard2-check"></i> services</small></h3>
+    <h1 class="fs-3">Welcome to
+        <?= $location . ' ' . $current_service ?>
+    </h1>
+    <h3 class="pb-2 border-bottom mt-4">Our <small class="text-muted"><i class="bi bi-clipboard2-check"></i>
+            Services</small></h3>
     <div class="row g-4 py-3 row-cols-2 row-cols-lg-2">
         <div class="feature col">
             <ul>
