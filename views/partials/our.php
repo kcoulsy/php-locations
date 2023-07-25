@@ -17,7 +17,6 @@
                 <li>Supply and installation and fitting</li>
                 <li>Fire door inspections</li>
                 <li>Fire door risk assesments</li>
-                <li>Property maintenance and repair</li>
             </ul>
         </div>
     </div>

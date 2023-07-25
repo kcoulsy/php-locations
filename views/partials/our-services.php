@@ -39,7 +39,6 @@
             <h4 class="fs-5"><i class="bi bi-buildings" style="font-size: 2rem; color: #05bd9b;"></i> <a
                     href="<?= $service_prop_maintenance_url ?>" class="">Property Maintenance</a></h4>
             <p>Reactive and proactive property maintenance.</p>
-            <p class="small">Please visit our Landlord Services page to see full details on what we can offer.</p>
             <div class="d-flex justify-content-between">
                 <a href="<?= $service_prop_maintenance_url ?>" class="">Further information...</a>
                 <a href="areas-covered-property-maintenance" class="small"
