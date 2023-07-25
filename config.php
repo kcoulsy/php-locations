@@ -1,6 +1,6 @@
 <?php
 
-$base_url = 'http://localhost:8000/';
+$base_url = '';
 
 define("BUSINESS_NAME", "COULSY");
 define("WEBSITE_NAME", "Coulsy");
