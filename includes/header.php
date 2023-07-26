@@ -10,7 +10,7 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav">
 
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="areas-covered-fire-door-services"
             id="themes">Fire Door Services</a>
           <div class="dropdown-menu" aria-labelledby="themes">
@@ -22,7 +22,7 @@
             } ?>
 
           </div>
-        </li>
+        </li> -->
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="about">Our Services</a>

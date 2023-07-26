@@ -1,6 +1,18 @@
 <div class="container" id="">
     <h3 class="pb-2 border-bottom mt-4">Our sevices</h3>
-    <div class="row g-4 py-3 row-cols-1 row-cols-lg-4">
+    <div class="row g-4 py-3 row-cols-1 row-cols-lg-5">
+    <div class="feature col">
+            <h4 class="fs-5"><i class="bi bi-door-open" style="font-size: 2rem; color: #05bd9b;"></i> <a
+                    href="<?= $service_services_url ?>" class="">Fire Door Services</a></h4>
+            <p>The correct inspection of your fire door and its frame are cruicial to its performance.</p>
+            <div class="d-flex justify-content-between">
+                <a href="<?= $service_services_url ?>" class="">Further information...</a>
+                <a href="areas-covered-fire-door-services" class="small"
+                    style="text-decoration: none; color: lightgray;">Areas covered</a>
+            </div>
+            <hr>
+        </div>
+
         <div class="feature col">
             <h4 class="fs-5"><i class="bi bi-door-open" style="font-size: 2rem; color: #05bd9b;"></i> <a
                     href="<?= $service_inspectors_url ?>" class="">Fire Door Inspectors</a></h4>
