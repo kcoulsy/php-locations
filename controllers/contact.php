@@ -15,7 +15,8 @@ require 'includes/header.php';
 			<h1>
 				<?= $title ?>
 			</h1>
-			<p class="lead mb-4 mt-1">Getting in touch is easy. We look forwards to hearing from you and being able to assist.</p>
+			<p class="lead mb-4 mt-1">Getting in touch is so easy. </P>
+			<P>We always look forward to hearing from you and being able to assist where we can.</p>
 
 		</div>
 	</div>
@@ -30,9 +31,9 @@ require 'includes/header.php';
 
 		<div class="col-lg-5  col-md-5 col-lg-offset-1">
 			<div class="card p-3">
-				<h4 class="text-color-dark mb-1 pb-3">Office</h4>
+				<h4 class="text-color-dark mb-1 pb-2">Office</h4>
 
-				<ul class="list list-icons mt-4 mb-4">
+				<ul class="list list-icons mt-3 mb-3">
 					<p class="text-4 mb-0">
 
 						<li style="list-style: none;"><i class="bi bi-buildings"></i> <?php echo $address_home; ?>
@@ -50,10 +51,11 @@ require 'includes/header.php';
 
 			</div>
 			<div class="card p-3 mt-4">
-				<h4 class="text-color-dark mb-1 pb-3">Company details</h4>
+				<h4 class="text-color-dark mb-1 pb-2">Company details</h4>
+				<P class="small">Rest assured by knowing who we are.</P>
 
-				<ul class="list list-icons mt-4 mb-4">
-				<p class="text-4 mb-0">
+				<ul class="list list-icons mt-3 mb-3">
+					<p class="text-4 mb-0">
 						<li style="list-style: none;"><i class="bi bi-card-checklist"></i> Registered Company : Coulsy Ltd
 						</li>
 					</p>

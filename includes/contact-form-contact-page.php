@@ -22,7 +22,7 @@ $has_contact_form = true;
         </div>
         <div class="form-group">
             <label for="form-message">Message</label>
-            <textarea class="form-control" name="message" id="form-message" rows="3" placeholder="Enter your message to us"></textarea>
+            <textarea class="form-control" name="message" id="form-message" rows="3" placeholder="Enter your message to us - e.g - I would like to discuss some concerns about our fire doors"></textarea>
         </div>
         <input type="text" class="d-none" name="site_location" id="site_location" value="<?= ($url_string ?? '') ?>" />
         <input type="hidden" name="recaptcha_value" id="recaptcha_value" value="" />
