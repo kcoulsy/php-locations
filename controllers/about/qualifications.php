@@ -44,8 +44,8 @@ require 'includes/header.php';
 						<ul>
 							<li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Level 3 Award in Fire Door Safety (6581)</li>
 							<li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Reach & Boom hydraulic lifts</li>
-							<li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Asbestos Awareness</li>
-							<li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Asbestos Awareness</li>
+							<li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Asbestos Awareness IATP</li>
+							<li class="list-group-item"><i class="bi bi-clipboard2-check"></i> COSHH</li>
 						</ul>
 					</div>
 				</div>

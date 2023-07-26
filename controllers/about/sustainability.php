@@ -33,7 +33,7 @@ require 'includes/header.php';
 				<p>Our employee involvement in environmental matters is encouraged and will be promoted through training, communications and a constant reappraisal of working methods and techniques.</p>
 
 				<p class="lead mt-4">Social</p>
-				<p>Initiatives promoting the wellbeing, health and safety of communities, customers and employees.</p>
+				<p>We actively have initiatives promoting the wellbeing, health and safety of communities, customers, our clients and employees.</p>
 
 				<!-- <p class="lead mt-4"><a href="#" target="" >Our Environmental policy download</a></p> -->
 			</div>

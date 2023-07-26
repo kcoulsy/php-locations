@@ -16,9 +16,9 @@ require 'includes/header.php';
         </div>
     </div>
 
-    <p>
-        Hi and welcome to visiting our business website.
-        We are a small business of qualified joiners and carpenters who have associations with other specialist tradespersons.
+    <h3>
+        Hello and thank you for visiting us here at <?= BUSINESS_NAME ?></h3>
+    <p>We are a small business of qualified joiners and carpenters who have associations with other specialist tradespersons.
     </p>
 
     <div class="row">
@@ -37,8 +37,8 @@ require 'includes/header.php';
 
                     </div>
                     <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><i class="bi bi-clipboard2-check"></i> CSCS Registered</li>
-                    <li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Carpenters & Joiners</li>
+                        <li class="list-group-item"><i class="bi bi-clipboard2-check"></i> CSCS Registered</li>
+                        <li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Carpenters & Joiners</li>
                         <li class="list-group-item"><i class="bi bi-clipboard2-check"></i> City & Guilds ”Distinction Grades”</li>
                         <li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Advanced City & Guilds ”Distinction Grades”</li>
                         <li class="list-group-item"><i class="bi bi-clipboard2-check"></i> Reach & Boom hydraulic lifts</li>

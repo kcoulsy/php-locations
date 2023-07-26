@@ -26,9 +26,9 @@ require 'includes/header.php';
 
 				<p class="lead mt-4" id="compliance_insurance">Insurance</p>
 				<p>
-					Public liability <a href="#">&nbsp;<i class="bi bi-download"></i></a>
+				<i class="bi bi-clipboard2-check"></i> Public liability <a href="#">&nbsp;<i class="bi bi-download"></i></a>
 					<br>
-					Employers liability <a href="#">&nbsp;<i class="bi bi-download"></i></a>
+					<i class="bi bi-clipboard2-check"></i> Employers liability <a href="#">&nbsp;<i class="bi bi-download"></i></a>
 				</p>
 				<p>Fully insured and offer £5,000,000 employers liability and £10,000,000 public liability Insurance.</p>
 				<p class="lead mt-4">Regulations</p>
