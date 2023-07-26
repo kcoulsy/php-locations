@@ -3,7 +3,7 @@
 $base_url = '';
 
 define("BUSINESS_NAME", "Coulsy Fire Door Services");
-define("WEBSITE_NAME", 'COULSY &nbsp; Fire Door Services');
+define("WEBSITE_NAME", 'COULSY &nbsp;Fire Door Services');
 
 $locations = [
     'bath',
